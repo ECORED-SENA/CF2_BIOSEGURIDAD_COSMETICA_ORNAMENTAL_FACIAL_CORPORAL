@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Protocolo de bioseguridad',
+    descripcionCurso:
+      'En el presente componente se exponen todos los elementos relacionados con el correcto manejo de los procesos de bioseguridad indispensables para la correcta ejecución de las actividades asistenciales en el marco de cuidar de la salud de los trabajadores y usuarios. Pensando en el proceso de aprendizaje se ha dispuesto aspectos relacionados con las precauciones universales, elementos de protección personal y manejo adecuado de residuos. Bienvenido.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -22,30 +23,30 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Pilares de la bioseguridad',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Protocolo de protección personal',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas asépticas',
+        desarrolloContenidos: true,
+      },
+
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Manejo de residuos hospitalarios',
         desarrolloContenidos: true,
       },
     ],
@@ -99,7 +100,7 @@ export default {
       tipo: 'tipo',
       descarga: '/downloads/prueba.pdf',
     },
-  ],  
+  ],
   glosario: [
     {
       termino: 'Término',
@@ -109,7 +110,7 @@ export default {
       termino: '<em>Término</em>',
       significado: 'Definición',
     },
-  ],  
+  ],
   referencias: [
     {
       referencia:
