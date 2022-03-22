@@ -122,7 +122,7 @@
           th.text-white Guantes 
           th.text-white Zapatos  
       tbody    
-        tr
+        tr.BG11
           th Tratamientos faciales y corporales
           td Si
           td No
@@ -144,7 +144,7 @@
           td Si
           td Si
           td Si
-        tr 
+        tr.BG11 
           th Procedimientos químicos (cabellos y uñas) 
           td No
           td No
@@ -166,7 +166,7 @@
           td Si
           td Si
           td Si
-        tr 
+        tr.BG11 
           th Cepillado y planchado del cabello  
           td No
           td Si
@@ -203,7 +203,7 @@
               td.text-white <strong>Reutilización EPP</strong> 
               td.text-white <strong>Descarte del Residuo</strong>
           table        
-            tr
+            tr.BG06
               td Gorro de tela 
               td Si, lavado y desinfección 
               td 
@@ -211,7 +211,7 @@
               td Protector Auditivo 
               td Si, limpieza  
               td 
-            tr
+            tr.BG06
               td Gafas/ careta  
               td Si, limpieza y desinfección   
               td      
@@ -219,7 +219,7 @@
               td Mascarilla   
               td   
               td Si, Riesgo biológico (bolsa roja).
-            tr
+            tr.BG06
               td Respirador con filtro    
               td Si, según recomendación del fabricante  
               td 
@@ -227,7 +227,7 @@
               td Bata/ Delantal     
               td Si, limpieza y desinfección   
               td 
-            tr
+            tr.BG06
               td Uniforme      
               td Si, limpieza y desinfección   
               td 
@@ -235,7 +235,7 @@
               td Guantes      
               td  
               td Si, riesgo biológico (bolsa roja).
-            tr
+            tr.BG06
               td Zapatos      
               td Si, limpieza 
               td

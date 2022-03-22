@@ -7,35 +7,37 @@
         span.text-white 1
       h1 Pilares de la bioseguridad
 
-    .cajon-b.color-secundario.p-3.mb-5(data-aos="fade-right")
-      p.mb-0 Pensar en la bioseguridad es acercarnos al conjunto de disposiciones y normas orientadas a la prevención de riesgos. Su objetivo es salvaguardar la salud y la seguridad de las personas que realizan procesos de atención a clientes, especialmente promover y garantizar la salud ocupacional de los trabajadores que son expuestos a riesgos biológicos y en este caso al personal que realiza atención en cosmética ornamental, facial y corporal. La bioseguridad incluye el manejo de los riesgos potenciales generados a partir de los agentes físicos, químicos y mecánicos de normas y medidas. Dentro de los componentes de la bioseguridad se encuentran los pilares básicos, los cuales definen las características mínimas que debe cumplir la bioseguridad. Ellos son:
+    .row.justify-content-center.BG08
+      .col-lg-12
+        .cajon-b.color-secundario.p-3.mb-5(data-aos="fade-right")
+          p.mb-0 Pensar en la bioseguridad es acercarnos al conjunto de disposiciones y normas orientadas a la prevención de riesgos. Su objetivo es salvaguardar la salud y la seguridad de las personas que realizan procesos de atención a clientes, especialmente promover y garantizar la salud ocupacional de los trabajadores que son expuestos a riesgos biológicos y en este caso al personal que realiza atención en cosmética ornamental, facial y corporal. La bioseguridad incluye el manejo de los riesgos potenciales generados a partir de los agentes físicos, químicos y mecánicos de normas y medidas. Dentro de los componentes de la bioseguridad se encuentran los pilares básicos, los cuales definen las características mínimas que debe cumplir la bioseguridad. Ellos son:
 
-    .row.justify-content-center
-      .col-lg-10.BG01(data-aos="fade-right")
-        SlyderA
-          .row.justify-content-center.align-items-center.mb-4.p-4
-            .col-lg-10.mb-4
-              img.mb-4(src='@/assets/curso/tema1/img01.png')
-              h4 Autocuidado 
-              p.mb-4 Son todas las prácticas diarias en beneficio de cuidar y proteger la salud, así mismo salvaguardar la integridad física. Para alcanzar el objetivo de proteger la salud es necesario que se realice un uso adecuado de los equipos y elementos que se deben utilizar en la protección personal.
-    
-          .row.justify-content-center.align-items-center.mb-4.p-4
-            .col-lg-10.mb-4
-              img.mb-4(src='@/assets/curso/tema1/img02.png')
-              h4 Universalidad 
-              p.mb-4 Se refiere a que todos aquellos individuos que estén expuestos a los agentes biológicos deben seguir y adoptar las normas universales ya que se le considera un potencial agente portador y transmisor de microorganismos patógenos. 
-    
-          .row.justify-content-center.align-items-center.mb-4.p-4
-            .col-lg-10.mb-4
-               img.mb-4(src='@/assets/curso/tema1/img03.png')
-               h4 Barreras de protección
-               p.mb-4 Se consideran barreras de protección a todos aquellos elementos que protegen a las personas de la trasmisión de infecciones. Para que se generen dichas barreras de protección existen dos vías, la primera se le denomina inmunizaciones activas más comúnmente conocida como vacunas; y la segunda se le denomina elementos de protección personal o barreras físicas.  
-          .row.justify-content-center.align-items-center.mb-4.p-4
-            .col-lg-10.mb-4
-               img.mb-4(src='@/assets/curso/tema1/img04.png')
-               h4 Medidas de eliminación
-               p.mb-4 Se refiere a la forma correcta de descartar todos aquellos elementos de riesgo patológico, teniendo como prioridad la protección de las personas y por supuesto la protección y conservación del medio ambiente.
-    
+        .row.justify-content-center
+          .col-lg-10.BG01(data-aos="fade-right")
+            SlyderA
+              .row.justify-content-center.align-items-center.mb-4.p-4
+                .col-lg-10.mb-4
+                  img.mb-4(src='@/assets/curso/tema1/img01.png')
+                  h4 Autocuidado 
+                  p.mb-4 Son todas las prácticas diarias en beneficio de cuidar y proteger la salud, así mismo salvaguardar la integridad física. Para alcanzar el objetivo de proteger la salud es necesario que se realice un uso adecuado de los equipos y elementos que se deben utilizar en la protección personal.
+        
+              .row.justify-content-center.align-items-center.mb-4.p-4
+                .col-lg-10.mb-4
+                  img.mb-4(src='@/assets/curso/tema1/img02.png')
+                  h4 Universalidad 
+                  p.mb-4 Se refiere a que todos aquellos individuos que estén expuestos a los agentes biológicos deben seguir y adoptar las normas universales ya que se le considera un potencial agente portador y transmisor de microorganismos patógenos. 
+        
+              .row.justify-content-center.align-items-center.mb-4.p-4
+                .col-lg-10.mb-4
+                  img.mb-4(src='@/assets/curso/tema1/img03.png')
+                  h4 Barreras de protección
+                  p.mb-4 Se consideran barreras de protección a todos aquellos elementos que protegen a las personas de la trasmisión de infecciones. Para que se generen dichas barreras de protección existen dos vías, la primera se le denomina inmunizaciones activas más comúnmente conocida como vacunas; y la segunda se le denomina elementos de protección personal o barreras físicas.  
+              .row.justify-content-center.align-items-center.mb-4.p-4
+                .col-lg-10.mb-4
+                  img.mb-4(src='@/assets/curso/tema1/img04.png')
+                  h4 Medidas de eliminación
+                  p.mb-4 Se refiere a la forma correcta de descartar todos aquellos elementos de riesgo patológico, teniendo como prioridad la protección de las personas y por supuesto la protección y conservación del medio ambiente.
+      
     .row.justify-content-center
       .col-lg-8
         img(src='@/assets/curso/tema1/img06.svg')
