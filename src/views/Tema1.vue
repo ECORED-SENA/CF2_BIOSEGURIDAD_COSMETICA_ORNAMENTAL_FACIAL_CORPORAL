@@ -88,28 +88,29 @@
           img(src='@/assets/curso/tema1/img08.png') 
 
       .tarjeta.BG03.p-3(x="24.5%" y="17.5%")
-        p Es importante tener presente que los guantes no pueden reemplazar la acción de lavar las manos.  Tampoco se deben generar prácticas de lavarse las manos con los guantes puestos ya que el material del que están fabricados no se hizo para ser lavado y reutilizado (se pueden formar microporos).
+        p Es importante tener presente que los guantes no pueden reemplazar la acción de lavar las manos. Tampoco se deben generar prácticas de lavarse las manos con los guantes puestos ya que el material del que están fabricados no se hizo para ser lavado y reutilizado (se pueden formar microporos).
 
       .tarjeta.BG03.p-3(x="65.3%" y="20.9%")
         p 
 
       .tarjeta.BG03.p-3(x="75.5%" y="20.9%")
-        p
+        p Este tipo de elemento debe utilizarse en aquellos procedimientos en donde exista manipulación de sangre o líquidos corporales. Las mascarillas y los tapabocas deben ser elaborados en material de alta eficiencia de filtración, deben contar con una capa repelente de fluidos; todo esto con el fin de  disminuir la diseminación de gérmenes.
 
       .tarjeta.BG03.p-3(x="85.6%" y="20.9%")
-        p
+        p Es necesario el uso del gorro para evitar la retención y dispersión de microorganismos. Además, haga uso de batas y delantales impermeables cuando existe riesgo de exponerse a salpicaduras de sangre de gran volumen o cualquier otro tipo de líquido considerado de precaución universal.
 
       .tarjeta.BG03.p-3(x="24.5%" y="80.2%")
-        p 
+        p Recomendaciones
+        P Siempre se debe descartar las agujas e instrumentos cortantes posterior a su utilización, en recipientes de paredes duras e impermeables. 
+        P Si no hay un recipiente cercano, cerca, se debe utilizar un elemento rígido para contener y posteriormente transportar el elemento cortopunzante. 
+        P Está prohibido descartar los elementos punzocortantes en cajas, contenedores o bolsas para la basura que no cuenten con el grosor indicado.
 
       .tarjeta.BG03.p-3(x="65%" y="80.2%")
-        p 
-
+        p Vía aérea 
       .tarjeta.BG03.p-3(x="75.5%" y="80.2%")
-        p
-
+        p Gotas de sangre
       .tarjeta.BG03.p-3(x="85.6%" y="80.2%")
-        p
+        p Contactos con la piel
 
     .row.justify-content-center.BGIMG02.mb-4
       .col-lg-10.mb-4(data-aos="fade-right")

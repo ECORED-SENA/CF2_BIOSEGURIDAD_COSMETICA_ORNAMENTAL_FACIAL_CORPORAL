@@ -161,122 +161,201 @@
           .col-lg-6.mb-4
             figure
               img(src='@/assets/curso/tema3/img27.png')
+    .row.justify-content-center
+      .col-lg-10.mb-4
+        LineaTiempoD.color-primario.mb-4
+          .row.justify-content-center(numero="1" titulo="Diagnóstico ambiental y sanitario")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img08.png')
+            .col-lg-6
+              p Se debe generar la caracterización de los residuos generados, tanto de forma cualitativa como cuantitativa, llevando  control sobre las cantidades obtenidas, contando los vertimientos realizados al alcantarillado público, emisiones atmosféricas y demás residuos clasificados en el Decreto 4741 de 2005.
+          .row.justify-content-center(numero="2" titulo="Programa de formación y educación")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img09.png')
+            .col-lg-6
+              p Ofrecer capacitaciones a todos los empleados de la empresa con el fin de garantizar el conocimiento sobre el manejo de los residuos generados en la institución, contemplando estrategias y medidas requeridas para garantizar el éxito del plan.
+          .row.justify-content-center(numero="3" titulo="Segregación en la fuente")
+            .col-lg-8.mb-4
+              p Consiste en la separación, almacenamiento y transporte adecuado de los residuos generados al interior de la empresa. Este paso es fundamental para dar inicio al plan de manejo integral de residuos. Para la segregación de los residuos, se debe de contar con los recipientes o contenedores adecuados para evitar así que residuos no peligrosos se contaminen al tener contacto con residuos peligrosos. 
+              p Para la realización de este procedimiento, se debe de cumplir con ciertas condiciones, entre ellas se encuentran:
+            .col-lg-3.mb-4
+              figure
+                img(src='@/assets/curso/tema4/img10.png')
+            .col-lg-10.BG13.mb-4
+              TabsB.p-4
+                .py-4.py-md-5(titulo="Separación")
+                  .row.justify-content-center
+                    .col-lg-6
+                      p La separación correcta por características y código de colores de residuos peligrosos o no peligrosos es: 
+                      br
+                      a.anexo.mb-4(:href="obtenerLink('/downloads/infografia.pdf')" target="_blank")
+                        .anexo__icono
+                          img(src="@/assets/template/icono-pdf.svg")
+                        .anexo__texto
+                          p <span style="color:#006DF0 !important; font-weight: bold;">Anexo. Infografía separación.</span>
+                .py-4.py-md-5(titulo="Recolección  y almacenamiento")
+                  .row.justify-content-center
+                    .col-lg-10
+                      p Según particularidades de los residuos, si este tiene un alto porcentaje de líquido, se deberá usar bolsa antigoteo o doble bolsa, para así evitar posibles fugas, y esta no debe ser llenada más de 2/3 de su capacidad. 
+                .py-4.py-md-5(titulo="Desactivados-Desinfectados")
+                  .row.justify-content-center
+                    .col-lg-10
+                      p En el caso de residuos generados en laboratorios y material de osteosíntesis (placas, tornillos), tienen que ser desactivados-desinfectados en su lugar de generación, previo al transporte interno.
+                .py-4.py-md-5(titulo="Peligrosidad")
+                  .row.justify-content-center
+                    .col-lg-10
+                      p Si un material posee dos características de peligrosidad, deberá segregarse con la característica que posea mayor índice de peligrosidad.
+                .py-4.py-md-5(titulo="Residuo anatomopatológico")
+                  .row.justify-content-center
+                    .col-lg-10
+                      p Se debe de refrigerar a una temperatura no mayor a 4°C. Si es el resultado de procedimientos quirúrgicos o salas de parto, se trasladará al sitio de almacenamiento central inmediatamente culmine dicho procedimiento. Y si es un material líquido, en poca cantidad, se podrán aplicar sustancias gelificantes para retardar su proceso de descomposición. Pero si este representa mayor riesgo, deberá almacenarse en contenedores rígidos para evitar cualquier fuga.
+                .py-4.py-md-5(titulo="Residuos cortopunzantes")
+                  .row.justify-content-center
+                    .col-lg-10
+                      p Se depositarán en contenedores rígidos, sin capuchones en el caso de las agujas. Diligenciar adecuadamente la información solicitada en la etiqueta. Este contenedor no se llenará más de ¾ de su capacidad. Cuando esto suceda, se cerrará el contendor, asegurando su tapa para evitar accidentes, luego se deposita en una bolsa roja y se trasladará al lugar de almacenamiento central.
+                .py-4.py-md-5(titulo="Residuos generados en aislamiento")
+                  .row.justify-content-center
+                    .col-lg-10
+                      p Si se determina que hay un alto riesgo de infección y propagación por el agente infeccioso, se clasificará como residuo peligroso con riesgo biológico-infeccioso; incluso las sobras de comida, material que en otro caso sería reciclable o aprovechable, se depositarán en doble bolsa roja y se trasladaron al área de almacenamiento central, donde tendrán que ser diferenciadas de los demás residuos y llevadas a su disposición final lo antes posible.    
+          .row.justify-content-center(numero="4" titulo="Desactivación")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img11.png')
+            .col-lg-6
+              p Todo residuo hospitalario debe desinfectarse y ser trasladado a plantas de incineración. Estos procesos de desinfección se realizan dependiendo del método con el que cuente la empresa. Para ello se podrá usar desinfección con autoclaves, calor en seco, radiación, microondas y uso de gases.
+          .row.justify-content-center(numero="5" titulo="Movimiento interno de residuos")
+            .col-lg-5.mb-4
+              figure
+                img(src='@/assets/curso/tema4/img12.png')
+            .col-lg-6
+              p Consiste en trasladar los residuos desde su lugar de generación hasta el sitio de almacenamiento central o interno. Este movimiento se debe realizar en las horas donde haya menos tránsito de personas, sin coincidir con movimiento de alimentos, material no contaminado o medicamentos. También se debe tener en cuenta que estos trayectos deben de ser lo más cortos posibles y no se usarán ductos para su evacuación. 
+              p Según el Ministerio de Salud y Medio Ambiente (2015), este proceso se registrará minuciosamente dentro del plan de manejo integral de residuos, identificando: 
+            .col-lg-11
+              ol.lista-ol--cuadro.mb-4
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | Frecuencias y horarios de recolección. 
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Tipos de residuos a recolectar. 
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Plano del establecimiento donde se identifique la ubicación de las áreas de generación de los residuos. 
+          .row.justify-content-center(numero="6" titulo="Almacenamiento interno-central")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img13.png')
+            .col-lg-6
+              p Son sitios de depósito temporal de los residuos generados, los cuales deben estar en lugares restringidos al público. Para ello, se usarán elementos de señalización adecuada, contar con buena iluminación y ventilación, cobertura contra aguas lluvias, con paredes, techo y pisos de fácil limpieza, con equipos para apagar el fuego y evitar la entrada de roedores. 
+          .row.justify-content-center(numero="7" titulo="Control de emisiones gaseosas y efluentes líquidos")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img14.png')
+            .col-lg-6
+              p Los residuos líquidos hospitalarios están cargados de agentes patógenos y materia orgánica, por eso, al momento de ser vertidos en un afluente, podrían llegar a causar un daño en la salud pública si no son tratados debidamente. Para esto, todo generador de dichos residuos deberá obtener los permisos y licencias establecidas para el cuidado del medio ambiente. 
+          .row.justify-content-center(numero="8" titulo="Plan de contingencia")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img15.png')
+            .col-lg-6
+              p Como su nombre lo indica, es un plan para afrontar las situaciones adversas generadas dentro el manejo de residuos hospitalarios, tales como  incendios, inundaciones, terremotos, sismos, alteraciones del orden público y corte del suministro de energía y/o agua.
+          .row.justify-content-center(numero="9" titulo="Indicadores de gestión interna")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img16.png')
+            .col-lg-6
+              p Es un conjunto de elementos que se establecen para la verificación del cumplimiento del plan integral para el manejo de los residuos hospitalarios. Uno de los procedimientos a realizar es el cálculo mensual de generación de residuos; para ello se usarán indicadores de destinación, capacitación, beneficios, estadísticas de accidentabilidad e indicadores de coincidencia. 
+          .row.justify-content-center(numero="10" titulo="Informe y reporte a las autoridades")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img17.png')
+            .col-lg-6
+              p Los indicadores de gestión interna se transportan en un informe-reporte que tendrá que ser presentado a la autoridad ambiental y sanitaria, ya que representa el control y vigilancia del acatamiento de la normatividad. 
+          .row.justify-content-center(numero="11" titulo="Programa de seguridad y salud el trabajador")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img18.png')
+            .col-lg-6
+              p El Ministerio del Trabajo, comprometido con el mejoramiento de las políticas del cuidado al trabajador, estableció el Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST), el cual debe ser implementado por todos los empleadores, y consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua, lo cual incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales  (Ministerio del Trabajo, Decreto 1072 de 2015 Libro 2, Parte 2, Título 4, Capítulo 6).
+          .row.justify-content-center(numero="12" titulo="Cronograma")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img19.png')
+            .col-lg-6
+              p Se tendrá un cronograma de actividades, donde se verifique el desarrollo de las actividades propuestas en el manual para la gestión integral de residuos, conteniendo información tal como actividades, los responsables y los indicadores.
+          .row.justify-content-center(numero="13" titulo="Revisión y mejoramiento continuo de procesos")
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema4/img20.png')
+            .col-lg-6
+              p Se realizará un proceso de evaluación continuo para identificar si las metas planteadas en el plan de manejo se han cumplido o no, y así determinar posibles acciones de mejora dentro del proceso, lo que llevará a cumplir a cabalidad lo propuesto inicialmente. 
+    
+    .row.justify-content-center
+      .col-lg-10.mb-4
+        p Todo residuo hospitalario habrá de ser tratado para su desactivación y así realizar la disposición final de este teniendo en cuenta la normatividad y legislación vigente. Para ello, cada generador creará y efectuará un plan de limpieza y desinfección para todos los elementos, insumos, materiales y lugares que tuviesen contacto directo con los residuos, teniendo en cuenta las instrucciones y exigencias que garanticen la desactivación del material contaminado. Se cuenta con gran variedad de procesos para realizar estas actividades, entre ellos están: 
+      .col-lg-10
+        .row.justify-content-center.mb-4
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/tema4/img21.png')
+          .col-lg-9
+            TabsA.color-acento-botones.mb-5
+              .tarjeta.color-acento-botones--borde.p-4(titulo="Térmico con combustión")
+                p Utiliza energía térmica a temperaturas suficientes para causar combustión o pirólisis del residuo. (Ejemplo: pirólisis, incineración, etc.)
+              .tarjeta.color-acento-botones--borde.p-4(titulo="Térmico sin combustión")
+                p Utiliza energía térmica a temperaturas suficientes para destruir los microorganismos, pero no la suficiente para causar combustión o pirólisis del residuo. (Ejemplo: Autoclaves de calor húmedo, equipos de calor seco, microondas, infrarrojo, etc.) 
+              .tarjeta.color-acento-botones--borde.p-4(titulo="Químico")
+                p Utiliza desinfectantes químicos para destruir patógenos en el residuo. (Ejemplo: ácidos, álcalis, sustancias oxidantes, etc.).
+              .tarjeta.color-acento-botones--borde.p-4(titulo="Por irradiación")
+                p Utiliza radiación para destruir patógenos en el residuo. (Ejemplo: Radiación UV, Cobalto 60, etc.)
+        p Para que la gestión integral de residuos sea organizada de manera correcta, es indispensable que el personal que realiza la atención de usuarios conozca el código de colores para que de esta manera se pueda organizar adecuadamente la ubicación de los recipientes. En el año 2021 empiezan a regir nuevos códigos de colores para la separación de residuos según la Resolución 2184 de diciembre de 2019. Observe la siguiente caracterización de los colores con respecto a los objetos que se pueden depositar.
 
-    LineaTiempoD.color-primario
-      .row.justify-content-center(numero="1" titulo="Diagnóstico ambiental y sanitario")
-        .col-lg-5
-          figure
-            img(src='@/assets/curso/tema4/img08.png')
-        .col-lg-6
-          p Se debe generar la caracterización de los residuos generados, tanto de forma cualitativa como cuantitativa, llevando  control sobre las cantidades obtenidas, contando los vertimientos realizados al alcantarillado público, emisiones atmosféricas y demás residuos clasificados en el Decreto 4741 de 2005.
-      .row.justify-content-center(numero="2" titulo="Programa de formación y educación")
-        .col-lg-5
-          figure
-            img(src='@/assets/curso/tema4/img09.png')
-        .col-lg-6
-          p Ofrecer capacitaciones a todos los empleados de la empresa con el fin de garantizar el conocimiento sobre el manejo de los residuos generados en la institución, contemplando estrategias y medidas requeridas para garantizar el éxito del plan.
-      .row.justify-content-center(numero="3" titulo="Segregación en la fuente")
-        .col-lg-8.mb-4
-          p Consiste en la separación, almacenamiento y transporte adecuado de los residuos generados al interior de la empresa. Este paso es fundamental para dar inicio al plan de manejo integral de residuos. Para la segregación de los residuos, se debe de contar con los recipientes o contenedores adecuados para evitar así que residuos no peligrosos se contaminen al tener contacto con residuos peligrosos. 
-          p Para la realización de este procedimiento, se debe de cumplir con ciertas condiciones, entre ellas se encuentran:
-        .col-lg-3.mb-4
-          figure
-            img(src='@/assets/curso/tema4/img10.png')
-        .col-lg-10.BG13.mb-4
-          TabsB
-            .py-4.py-md-5(titulo="Separación")
-              .row.justify-content-center
-                .col-lg-6
-                  p La separación correcta por características y código de colores de residuos peligrosos o no peligrosos es: 
-                  br
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/infografia.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg")
-                    .anexo__texto
-                      p <span style="color:#006DF0 !important; font-weight: bold;">Anexo. Infografía separación.</span>
-            .py-4.py-md-5(titulo="Recolección  y almacenamiento")
-              .row.justify-content-center
-                .col-lg-10
-                  p Según particularidades de los residuos, si este tiene un alto porcentaje de líquido, se deberá usar bolsa antigoteo o doble bolsa, para así evitar posibles fugas, y esta no debe ser llenada más de 2/3 de su capacidad. 
-            .py-4.py-md-5(titulo="Desactivados-Desinfectados")
-              .row.justify-content-center
-                .col-lg-10
-                  p En el caso de residuos generados en laboratorios y material de osteosíntesis (placas, tornillos), tienen que ser desactivados-desinfectados en su lugar de generación, previo al transporte interno.
-            .py-4.py-md-5(titulo="Peligrosidad")
-              .row.justify-content-center
-                .col-lg-10
-                  p Si un material posee dos características de peligrosidad, deberá segregarse con la característica que posea mayor índice de peligrosidad.
-            .py-4.py-md-5(titulo="Residuo anatomopatológico")
-              .row.justify-content-center
-                .col-lg-10
-                  p Se debe de refrigerar a una temperatura no mayor a 4°C. Si es el resultado de procedimientos quirúrgicos o salas de parto, se trasladará al sitio de almacenamiento central inmediatamente culmine dicho procedimiento. Y si es un material líquido, en poca cantidad, se podrán aplicar sustancias gelificantes para retardar su proceso de descomposición. Pero si este representa mayor riesgo, deberá almacenarse en contenedores rígidos para evitar cualquier fuga.
-            .py-4.py-md-5(titulo="Residuos cortopunzantes")
-              .row.justify-content-center
-                .col-lg-10
-                  p Se depositarán en contenedores rígidos, sin capuchones en el caso de las agujas. Diligenciar adecuadamente la información solicitada en la etiqueta. Este contenedor no se llenará más de ¾ de su capacidad. Cuando esto suceda, se cerrará el contendor, asegurando su tapa para evitar accidentes, luego se deposita en una bolsa roja y se trasladará al lugar de almacenamiento central.
-            .py-4.py-md-5(titulo="Residuos generados en aislamiento")
-              .row.justify-content-center
-                .col-lg-10
-                  p Si se determina que hay un alto riesgo de infección y propagación por el agente infeccioso, se clasificará como residuo peligroso con riesgo biológico-infeccioso; incluso las sobras de comida, material que en otro caso sería reciclable o aprovechable, se depositarán en doble bolsa roja y se trasladaron al área de almacenamiento central, donde tendrán que ser diferenciadas de los demás residuos y llevadas a su disposición final lo antes posible.    
-      .row.justify-content-center(numero="4" titulo="Desactivación")
-        .col-lg-5
-          figure
-            img(src='@/assets/curso/tema4/img11.png')
-        .col-lg-6
-          p Todo residuo hospitalario debe desinfectarse y ser trasladado a plantas de incineración. Estos procesos de desinfección se realizan dependiendo del método con el que cuente la empresa. Para ello se podrá usar desinfección con autoclaves, calor en seco, radiación, microondas y uso de gases.
-      .row.justify-content-center(numero="5" titulo="Movimiento interno de residuos")
-        .col-lg-5.mb-4
-          figure
-            img(src='@/assets/curso/tema4/img12.png')
-        .col-lg-6
-          p Consiste en trasladar los residuos desde su lugar de generación hasta el sitio de almacenamiento central o interno. Este movimiento se debe realizar en las horas donde haya menos tránsito de personas, sin coincidir con movimiento de alimentos, material no contaminado o medicamentos. También se debe tener en cuenta que estos trayectos deben de ser lo más cortos posibles y no se usarán ductos para su evacuación. 
-          p Según el Ministerio de Salud y Medio Ambiente (2015), este proceso se registrará minuciosamente dentro del plan de manejo integral de residuos, identificando: 
-        .col-lg-11
-          ol.lista-ol--cuadro.mb-4
-            li 
-              .lista-ol--cuadro__vineta
-                span 1
-              | Frecuencias y horarios de recolección. 
-            li 
-              .lista-ol--cuadro__vineta
-                span 2
-              | Tipos de residuos a recolectar. 
-            li 
-              .lista-ol--cuadro__vineta
-                span 3
-              | Plano del establecimiento donde se identifique la ubicación de las áreas de generación de los residuos. 
-      .row.justify-content-center(numero="6" titulo="Almacenamiento interno-central")
-        .col-lg-5
-          figure
-            img(src='@/assets/curso/tema4/img13.png')
-        .col-lg-6
-          p Son sitios de depósito temporal de los residuos generados, los cuales deben estar en lugares restringidos al público. Para ello, se usarán elementos de señalización adecuada, contar con buena iluminación y ventilación, cobertura contra aguas lluvias, con paredes, techo y pisos de fácil limpieza, con equipos para apagar el fuego y evitar la entrada de roedores. 
-      .row.justify-content-center(numero="7" titulo="Control de emisiones gaseosas y efluentes líquidos")
-        .col-lg-5
-          figure
-            img(src='@/assets/curso/tema4/img14.png')
-        .col-lg-6
-          p Los residuos líquidos hospitalarios están cargados de agentes patógenos y materia orgánica, por eso, al momento de ser vertidos en un afluente, podrían llegar a causar un daño en la salud pública si no son tratados debidamente. Para esto, todo generador de dichos residuos deberá obtener los permisos y licencias establecidas para el cuidado del medio ambiente. 
-      .row.justify-content-center(numero="8" titulo="Plan de contingencia")
-        .col-lg-5
-          figure
-            img(src='@/assets/curso/tema4/img15.png')
-        .col-lg-6
-          p Como su nombre lo indica, es un plan para afrontar las situaciones adversas generadas dentro el manejo de residuos hospitalarios, tales como  incendios, inundaciones, terremotos, sismos, alteraciones del orden público y corte del suministro de energía y/o agua.
-      .row.justify-content-center(numero="9" titulo="Indicadores de gestión interna")
-        .col-lg-5
-          figure
-            img(src='@/assets/curso/tema4/img16.png')
-        .col-lg-6
-          p Es un conjunto de elementos que se establecen para la verificación del cumplimiento del plan integral para el manejo de los residuos hospitalarios. Uno de los procedimientos a realizar es el cálculo mensual de generación de residuos; para ello se usarán indicadores de destinación, capacitación, beneficios, estadísticas de accidentabilidad e indicadores de coincidencia. 
-      .row.justify-content-center(numero="10" titulo="Informe y reporte a las autoridades")
-        .col-lg-5
-          figure
-            img(src='@/assets/curso/tema4/img17.png')
-        .col-lg-6
-          p Los indicadores de gestión interna se transportan en un informe-reporte que tendrá que ser presentado a la autoridad ambiental y sanitaria, ya que representa el control y vigilancia del acatamiento de la normatividad. 
-      
+    .row.justify-content-center.align-items-center.BGIMG11.mb-4
+      .col-lg-3.d-flex.mb-4
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema4/img23.png' alt='AvatarTop')
+          .tarjeta.BG04.p-4
+            <br><br>
+            p Color blanco será para depositar los residuos aprovechables como plástico, vidrio, metales, papel y cartón.
+      .col-lg-3.d-flex.mb-4
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema4/img24.png' alt='AvatarTop')
+          .tarjeta.BG04.p-4
+            <br><br>
+            p El color negro para depositar los residuos no aprovechables como el papel higiénico, servilletas, papeles y cartones contaminados con comida, papeles metalizados, entre otros.
+      .col-lg-3.d-flex.mb-4
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema4/img25.png' alt='AvatarTop')
+          .tarjeta.BG04.p-4
+            <br><br>
+            p El color verde para depositar residuos orgánicos aprovechables como los restos de comida, desechos agrícolas, etc.
+      .col-lg-6.mb-4
+        p Es el código de colores que deberá ser adoptado por los municipios o distritos y permitirá facilitar la separación en los hogares y, si bien la norma no menciona cambios al manejo que debe darse a los residuos peligrosos en recipientes y bolsas rojas, dicha separación debe realizarse según la Resolución 01164 de 2002 en la que se expresa:
+      .col-lg-8
+        .tarjeta-avatar
+            img(src='@/assets/curso/tema4/img26.png' alt='AvatarTop')
+            .tarjeta.BG04.p-4
+              <br><br>
+              p El color rojo implica riesgo biológico, materiales biosanitarios o que han estado en contacto con fluidos corporales u órganos (como algodones, campos quirúrgicos, compresas, guantes, mascarillas, ropa descartable o de uso único contaminada con sangre y otros fluidos, sábanas y cobertores de mesas); anatomopatológicos, de animales, elementos cortopunzantes, radioactivos, residuos que contienen o están contaminados por radionúclidos en concentraciones o actividades superiores a los niveles de exención establecidos por la autoridad competente y para los cuales ya no se prevé ningún uso posterior; y otros como corrosivos, explosivos, inflamables, reactivos y tóxicos.
 
+    .row.justify-content-center.mb-4
+      .col-lg-10.mb-4
+        p El plan de gestión integral de residuos provenientes de centros de estética peluquerías y actividades similares PGIRP estará diseñado por los generadores, los prestadores del servicio de desactivación y especial de aseo para organizar las actividades que se requieren para dar garantía de una adecuada gestión de residuos provenientes de los prestadores que ofertan servicios en cosmética ornamental, facial y corporal. 
+      .col-lg-10(data-aos="fade-right")
+        .bloque-texto-g.color-primario.mb-4.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema4/img27.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Dentro del plan de gestión de residuos hospitalarios, es indispensable contar con la empresa que realiza el proceso de recolección de residuos. La empresa contratada debe cumplir con las funciones de recolección hasta la disposición final de los residuos (pasando por los procesos de aprovechamiento de residuos reciclables y tratamiento fuera de las instalaciones del prestador, siguiendo los lineamientos normativos.  Es importante tener presente que cuando se realiza el transporte de los residuos peligrosos de tipo infeccioso y no peligrosos para que se realice el almacenamiento central, el personal encargado de hacer esta acción interna de los residuos debe anotar en el formato Registro diario de Generación de residuos infecciosos y no peligrosos los datos: fecha de entrega, área de procedencia del residuo, cantidad en peso (Kg) y el tipo de desactivación realizada previo a su recolección interna. 
+        p Es de relevancia, mencionar que el plan de gestión integral de residuos debe contar con plan de auditoría interna; así se debe tener en cuenta que las entidades de control y seguimiento podrán realizar auditorías al proceso. Es importante manifestar que se realizarán las respectivas auditorías internas estipuladas dentro del manual de bioseguridad y se deberán programar de manera eventual monitoreos aleatorios en las diversas áreas.  El proceso de auditoría tiene como objetivo revisar cada uno de los procedimientos y actividades planeadas en la gestión integral de residuos. Esto se hace con el fin de validar los resultados y establecer las medidas correctivas que se puedan generar. Esta evaluación deberá incluir la evaluación integral de todas las actividades del proceso: la segregación, el etiquetado, la manipulación y la desactivación.  
+
+    
 
 </template>
 
