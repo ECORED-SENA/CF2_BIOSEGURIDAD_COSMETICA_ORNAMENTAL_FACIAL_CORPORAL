@@ -45,10 +45,7 @@
 
         .tarjeta.BG03.p-3(x="41.7%" y="49%")
           p Son residuos contaminados con sustancias químicas capaces de producir la muerte dependiendo de sus niveles de concentración, entre ellos se encuentran: los fármacos, los residuos derivados de tratamientos oncológicos, metales pesados (plomo, cromo, zinc, mercurio) y los aceites usados.
-
-        .tarjeta.BG03.p-3(x="58.3%" y="49%")
-          p 
-
+  
         .tarjeta.BG03.p-3(x="74.7%" y="49%")
           p Son todos los residuos que por sus características se pueden reintroducir a la cadena productiva o aquellos a los que se les puede dar un uso diferente.
 
@@ -69,18 +66,7 @@
 
         .tarjeta.BG03.p-3(x="58.3%" y="74.2%")
           p Son los restos de animales usados para fines de investigación, muestra o testeo, los cuales se encuentran contaminados con un agente infeccioso.
-
-        .tarjeta.BG03.p-3(x="41.7%" y="97.65%")
-          p 
-
-        .tarjeta.BG03.p-3(x="58.3%" y="97.65%")
-          p 
-
-        .tarjeta.BG03.p-3(x="74.7%" y="97.65%")
-          p  
-
-        .tarjeta.BG03.p-3(x="91.65%" y="97.65%")
-          p   
+       
 
       .col-lg-6.mb-4
         figure
@@ -315,7 +301,9 @@
                 p Utiliza radiación para destruir patógenos en el residuo. (Ejemplo: Radiación UV, Cobalto 60, etc.)
         p Para que la gestión integral de residuos sea organizada de manera correcta, es indispensable que el personal que realiza la atención de usuarios conozca el código de colores para que de esta manera se pueda organizar adecuadamente la ubicación de los recipientes. En el año 2021 empiezan a regir nuevos códigos de colores para la separación de residuos según la Resolución 2184 de diciembre de 2019. Observe la siguiente caracterización de los colores con respecto a los objetos que se pueden depositar.
 
-    .row.justify-content-center.align-items-center.BGIMG11.mb-4
+    .row.justify-content-center.align-items-center.BGIMG11.mb-5.p-0
+      .col-lg-12
+        <br><br><br><br>
       .col-lg-3.d-flex.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema4/img23.png' alt='AvatarTop')
@@ -334,14 +322,16 @@
           .tarjeta.BG04.p-4
             <br><br>
             p El color verde para depositar residuos orgánicos aprovechables como los restos de comida, desechos agrícolas, etc.
-      .col-lg-6.mb-4
+      .col-lg-7.mb-4
         p Es el código de colores que deberá ser adoptado por los municipios o distritos y permitirá facilitar la separación en los hogares y, si bien la norma no menciona cambios al manejo que debe darse a los residuos peligrosos en recipientes y bolsas rojas, dicha separación debe realizarse según la Resolución 01164 de 2002 en la que se expresa:
-      .col-lg-8
+      .col-lg-9
         .tarjeta-avatar
             img(src='@/assets/curso/tema4/img26.png' alt='AvatarTop')
             .tarjeta.BG04.p-4
               <br><br>
-              p El color rojo implica riesgo biológico, materiales biosanitarios o que han estado en contacto con fluidos corporales u órganos (como algodones, campos quirúrgicos, compresas, guantes, mascarillas, ropa descartable o de uso único contaminada con sangre y otros fluidos, sábanas y cobertores de mesas); anatomopatológicos, de animales, elementos cortopunzantes, radioactivos, residuos que contienen o están contaminados por radionúclidos en concentraciones o actividades superiores a los niveles de exención establecidos por la autoridad competente y para los cuales ya no se prevé ningún uso posterior; y otros como corrosivos, explosivos, inflamables, reactivos y tóxicos.
+              p.mb-0 El color rojo implica riesgo biológico, materiales biosanitarios o que han estado en contacto con fluidos corporales u órganos (como algodones, campos quirúrgicos, compresas, guantes, mascarillas, ropa descartable o de uso único contaminada con sangre y otros fluidos, sábanas y cobertores de mesas); anatomopatológicos, de animales, elementos cortopunzantes, radioactivos, residuos que contienen o están contaminados por radionúclidos en concentraciones o actividades superiores a los niveles de exención establecidos por la autoridad competente y para los cuales ya no se prevé ningún uso posterior; y otros como corrosivos, explosivos, inflamables, reactivos y tóxicos.
+      .col-lg-12
+        <br><br><br><br><br>
 
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4

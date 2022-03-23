@@ -88,10 +88,10 @@
           img(src='@/assets/curso/tema1/img08.png') 
 
       .tarjeta.BG03.p-3(x="24.5%" y="17.5%")
-        p Es importante tener presente que los guantes no pueden reemplazar la acción de lavar las manos. Tampoco se deben generar prácticas de lavarse las manos con los guantes puestos ya que el material del que están fabricados no se hizo para ser lavado y reutilizado (se pueden formar microporos).
+        p Se debe lavar las manos con agua y jabón después de tener contacto con fluidos o secreciones corporales; así mismo si utilizo guantes, inmediatamente después de retirarlos se debe ejecutar esta acción. Es indispensable tener presente que se deben lavar las manos cuando se tenga contacto entre pacientes y en toda ocasión que se requiera. Se debe realizar el lavado de manos y las otras superficies cutáneas antes y después de cada actividad asistencial. 
 
       .tarjeta.BG03.p-3(x="65.3%" y="20.9%")
-        p 
+        p Es importante tener presente que los guantes no pueden reemplazar la acción de lavar las manos. Tampoco se deben generar prácticas de lavarse las manos con los guantes puestos ya que el material del que están fabricados no se hizo para ser lavado y reutilizado (se pueden formar microporos).
 
       .tarjeta.BG03.p-3(x="75.5%" y="20.9%")
         p Este tipo de elemento debe utilizarse en aquellos procedimientos en donde exista manipulación de sangre o líquidos corporales. Las mascarillas y los tapabocas deben ser elaborados en material de alta eficiencia de filtración, deben contar con una capa repelente de fluidos; todo esto con el fin de  disminuir la diseminación de gérmenes.
@@ -106,11 +106,11 @@
         P Está prohibido descartar los elementos punzocortantes en cajas, contenedores o bolsas para la basura que no cuenten con el grosor indicado.
 
       .tarjeta.BG03.p-3(x="65%" y="80.2%")
-        p Vía aérea 
+        p.text-center Vía aérea 
       .tarjeta.BG03.p-3(x="75.5%" y="80.2%")
-        p Gotas de sangre
+        p.text-center Gotas de sangre
       .tarjeta.BG03.p-3(x="85.6%" y="80.2%")
-        p Contactos con la piel
+        p.text-center Contactos con la piel
 
     .row.justify-content-center.BGIMG02.mb-4
       .col-lg-10.mb-4(data-aos="fade-right")
@@ -126,58 +126,58 @@
         p En la actualidad varios de los procedimientos que se realizan ya sea con objetivo diagnóstico o terapéutico, incluyen el contacto directo con instrumentos e insumos que por lo general se encuentran en condiciones estériles. Sin embargo, dentro de la ejecución de estos procedimientos existe la posibilidad de ingresar agentes microbianos en el cuerpo del usuario. Esto genera una infección que se asocia a lo que comúnmente se conoce como infección por falla o error en el proceso de esterilización y desinfección. En este sentido, el proceso de esterilización permite eliminar los microbios (incluyendo esporas microbianas) mediante los siguientes métodos.
       .col-lg-6
         ol.lista-ol--cuadro
-        li 
-          .lista-ol--cuadro__vineta
-            span 1
-          | Físicos: calor seco y vapor. 
-        li 
-          .lista-ol--cuadro__vineta
-            span 2
-          | Químicos: líquidos y gaseosos. 
-        li 
-          .lista-ol--cuadro__vineta
-            span 3
-          | Fisicoquímico: combinación de gases químicos y vapores a baja temperatura.
-        li 
-          .lista-ol--cuadro__vineta
-            span 4
-          | Plasma: peróxido de hidrógeno. 
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Físicos: calor seco y vapor. 
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | Químicos: líquidos y gaseosos. 
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | Fisicoquímico: combinación de gases químicos y vapores a baja temperatura.
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            | Plasma: peróxido de hidrógeno. 
         br
         p Es necesario que se cumplan con un conjunto de condiciones y pasos para que el proceso de esterilización se pueda dar. A continuación, se enlistan:
         br
         ol.lista-ol--cuadro
-        li 
-          .lista-ol--cuadro__vineta
-            span 1
-          | Recepción de material usado o no estéril. 
-        li 
-          .lista-ol--cuadro__vineta
-            span 2
-          | Clasificación y lavado.
-        li 
-          .lista-ol--cuadro__vineta
-            span 3
-          | Secado.
-        li 
-          .lista-ol--cuadro__vineta
-            span 4
-          | Inspección. 
-        li 
-          .lista-ol--cuadro__vineta
-            span 5
-          | Preparación.  
-        li 
-          .lista-ol--cuadro__vineta
-            span 6
-          | Empaque. 
-        li 
-          .lista-ol--cuadro__vineta
-            span 7
-          | Exposición al método de esterilización o de desinfección de alto nivel.
-        li 
-          .lista-ol--cuadro__vineta
-            span 8
-          | Almacenamiento y distribución. 
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Recepción de material usado o no estéril. 
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | Clasificación y lavado.
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | Secado.
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            | Inspección. 
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            | Preparación.  
+          li 
+            .lista-ol--cuadro__vineta
+              span 6
+            | Empaque. 
+          li 
+            .lista-ol--cuadro__vineta
+              span 7
+            | Exposición al método de esterilización o de desinfección de alto nivel.
+          li 
+            .lista-ol--cuadro__vineta
+              span 8
+            | Almacenamiento y distribución. 
       .col-lg-4.sm-3
         img(src='@/assets/curso/tema1/img11.png')
         
@@ -194,38 +194,38 @@
                 img(src='@/assets/curso/tema1/img12.png')
             .col-lg-7
               ol.lista-ol--cuadro
-              li 
-                .lista-ol--cuadro__vineta
-                  span 1
-                | Priones.
-              li 
-                .lista-ol--cuadro__vineta
-                  span 2
-                | Esporas bacterianas.
-              li 
-                .lista-ol--cuadro__vineta
-                  span 3
-                | Microbacterias.
-              li 
-                .lista-ol--cuadro__vineta
-                  span 4
-                | Esporas de hongos.
-              li 
-                .lista-ol--cuadro__vineta
-                  span 5
-                | Virus pequeños. 
-              li 
-                .lista-ol--cuadro__vineta
-                  span 6
-                | Hongos en formas vegetativas. 
-              li 
-                .lista-ol--cuadro__vineta
-                  span 7
-                | Bacterias vegetativas.
-              li 
-                .lista-ol--cuadro__vineta
-                  span 8
-                | Virus medianos.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | Priones.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Esporas bacterianas.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Microbacterias.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 4
+                  | Esporas de hongos.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 5
+                  | Virus pequeños. 
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 6
+                  | Hongos en formas vegetativas. 
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 7
+                  | Bacterias vegetativas.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 8
+                  | Virus medianos.
           .row(numero="2" titulo="Valoración del riesgo de infección inherente al  procedimiento").p-3
             .col-lg-4.sm-3
               figure
