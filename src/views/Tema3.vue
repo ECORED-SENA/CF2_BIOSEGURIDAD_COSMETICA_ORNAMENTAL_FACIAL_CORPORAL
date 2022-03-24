@@ -11,16 +11,16 @@
       p En algunas etapas de la historia humana se han identificado diversos momentos en la relación con el concepto de asepsia, historiadores manifiestan que en la edad media se tuvo la idea que la suciedad producía una capa protectora contra las enfermedades. Durante la revolución industrial se iniciaron procesos y procedimientos de higiene que hoy son conocidos como resultado de la búsqueda de la calidad en la productividad. La implementación de procedimientos de asepsia son un mecanismo de defensa y ruptura de la cadena de transmisión de infecciones que causan enfermedades humanas. Cada método de limpieza, desinfección, esterilización ayudarán a minimizar y reducir el riesgo de contagio de infecciones.
     .row.justify-content-center
       .col-lg-10(data-aos="fade-right")
-        .bloque-texto-g.color-acento-botones.mb-4.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-acento-botones.mb-5.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 La asepsia es un proceso por el cual se trata de eliminar o disminuir la presencia de microorganismos que se encuentran alojados sobre objetos, superficies inanimadas, instrumental, entre otros.  Su principal objetivo es evitar que los microorganismos sobre los que se actúa se conviertan en una fuente de contaminación.
-        p Es importante que usted entienda que al proceso de limpieza le antecede la desinfección y esterilización. Cabe mencionar que por limpieza se debe entender en el desecho de la materia orgánica de los elementos o superficies, para ello se utiliza agua y detergente. La operación de la limpieza de los materiales, equipos y otros comienza con su recepción, luego se debe clasificar según su forma y material, seguidamente se debe hacer un prelavado y lavado, esta secuencia termina con el secado. Todo ello permite pasar al proceso de sanitización y esterilización. 
+        p.mb-5 Es importante que usted entienda que al proceso de limpieza le antecede la desinfección y esterilización. Cabe mencionar que por limpieza se debe entender en el desecho de la materia orgánica de los elementos o superficies, para ello se utiliza agua y detergente. La operación de la limpieza de los materiales, equipos y otros comienza con su recepción, luego se debe clasificar según su forma y material, seguidamente se debe hacer un prelavado y lavado, esta secuencia termina con el secado. Todo ello permite pasar al proceso de sanitización y esterilización. 
 
-      .col-lg-8.mb-4(data-aos="fade-right")
-        .cajon.color-acento-contenido.p-4
+      .col-lg-8.mb-5(data-aos="fade-right")
+        .cajon.color-acento-contenido.p-4.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-11
               p.text-center En la limpieza se pueden identificar tres grandes protagonistas: el agua, el jabón y la fuerza. Le sugerimos identificar la característica de estos a continuación. 
@@ -56,7 +56,7 @@
         .row.justify.content-center.align-items-center
           .col-lg-2
             img(src='@/assets/curso/tema3/img06.png')
-          .col-lg-10
+          .col-10
             p Elimine mecánicamente toda materia en las superficies y objetos se ejecuta con agua y jabón, para bajar la carga de microorganismos por medio del arrastre mecánico.
         hr
       .col-lg-5(data-aos="fade-left")
@@ -64,44 +64,47 @@
         .row.justify.content-center.align-items-center
           .col-lg-2
             img(src='@/assets/curso/tema3/img07.png')
-          .col-lg-10
+          .col-10
             p Arrastre mecánicamente la materia orgánica utilizando varios elementos tales como: trapo, cepillo o trapeador. 
             br
         hr
       .col-lg-10.mb-4(data-aos="fade-right")
         .row.justify.content-center.align-items-center
-          .col-lg-1
+          .col-lg-1.col-sm-2
             img(src='@/assets/curso/tema3/img08.png')
-          .col-lg-11
+          .col-11.col-sm-10
             p Haga la limpieza con agua y detergentes que tengan acción bactericida o germicida, para disminuir la carga de agentes patógenos o microorganismos. La limpieza en el contexto de la cosmetología se recomienda ejecutarse en los siguientes pasos:
       .col-lg-8
         .row.justify.content-center.align-items-center
-          .col-lg-6(data-aos="fade-right").mb-4
-            .row.justify.content-center.BGIMG07
-              .col-lg-3
-              .col-lg-9.p-1
+          .col-lg-6.col-sm-9.mb-4(data-aos="fade-right")
+            .row.BGIMG07.p-2
+              .col-3
+              .col-9
                 p Realice una limpieza inicialmente con el trapero húmedo para recoger el polvo y las diversas partículas.
-          .col-lg-6(data-aos="fade-left").mb-4
-            .row.justify.content-center.BGIMG08
-              .col-lg-3
-              .col-lg-9.p-1
+          .col-lg-6.col-sm-9.mb-4(data-aos="fade-left")
+            .row.BGIMG08.p-2
+              .col-3
+              .col-9
                 p Haga uso de dos baldes, para que en uno se mezcle el agua y jabón y en el otro sólo agua para enjuagar.      
-          .col-lg-6(data-aos="fade-right").mb-4
-            .row.justify.content-center.BGIMG09
-              .col-lg-3
-              .col-lg-9.p-3
+          .col-lg-6.col-sm-10.mb-4(data-aos="fade-right")
+            .row.BGIMG09.p-2
+              .col-3
+              .col-9
                 p Inicie la limpieza con los lugares más limpios y termine en los más sucios. 
-          .col-lg-6(data-aos="fade-left").mb-4
-            .row.justify.content-center.BGIMG10
-              .col-lg-3
-              .col-lg-9.p-3
+                br
+          .col-lg-6.col-sm-10.mb-4(data-aos="fade-left")
+            .row.BGIMG10.p-2
+              .col-3
+              .col-9
+                <br>
                 p Lave con agua y jabón los elementos utilizados.
+                <br>
       .col-lg-10.mb-3
         <br><hr><br>
         .row.justify.content-center.align-items-center(data-aos="fade-right")
-          .col-lg-1
+          .col-lg-1.col-sm-2
             img(src='@/assets/curso/tema3/img10.png')
-          .col-lg-11
+          .col-11.col-sm-10
             p Diligencie el formato de registro de la ejecución de procedimientos de limpieza. En este se describe el cronograma de periodicidad de prácticas de limpieza, responsable de la ejecución, productos utilizados, la fecha y el paso a paso de cómo se realizó. 
 
       .col-lg-6.mb-5(data-aos="fade-right")
@@ -134,7 +137,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
-        p Es importante tener en cuenta que los productos desinfectantes a elegir deben traer en su etiquetado las especificaciones o modo de preparación y estos deben estar acorde con el tipo de área a desinfectar y las necesidades dentro de la operación, en la clasificación de spaulding se puede identificar cuáles procedimientos aplicar en la desinfección y esterilización. Tenga presente que existen factores que alteran la desinfección. Ellos son:1. Exposición a los rayos solares, 2. Mezclas con agua caliente y otros detergentes. Cuando haga uso del hipoclorito recuerde que una vez mezclado con agua fría al paso de 4 horas este pierde sus propiedades microbicidas. Entendidas estas orientaciones en el contexto de la desinfección, a continuación, se describen algunos métodos de asepsia que usted puede aplicar en su contexto laboral. 
+        p Es importante tener en cuenta que los productos desinfectantes a elegir deben traer en su etiquetado las especificaciones o modo de preparación y estos deben estar acorde con el tipo de área a desinfectar y las necesidades dentro de la operación, en la clasificación de #[i spaulding] se puede identificar cuáles procedimientos aplicar en la desinfección y esterilización. Tenga presente que existen factores que alteran la desinfección. Ellos son:1. Exposición a los rayos solares, 2. Mezclas con agua caliente y otros detergentes. Cuando haga uso del hipoclorito recuerde que una vez mezclado con agua fría al paso de 4 horas este pierde sus propiedades microbicidas. Entendidas estas orientaciones en el contexto de la desinfección, a continuación, se describen algunos métodos de asepsia que usted puede aplicar en su contexto laboral. 
 
     #MapaGroup01.row.mb-5(data-aos="fade")
       .row.justify-content-center
@@ -164,7 +167,7 @@
         .multi-collapse2.row.justify-content-center.align-items-center.pb-4.collapse(data-bs-parent='#MapaGroup01')
           .col-md-8.mb-4
             h4 <span style="color:#483C8C !important; font-weight: bold;">Limpieza </span>
-            p Es el proceso que se realiza a los instrumentos y equipos con el fin de eliminar la suciedad, empleando métodos físicos o químicos para tal fin. Existen diferentes tipos de limpieza, haga clic en la imagen para identificarlas. <br>
+            p Es el proceso que se realiza a los instrumentos y equipos con el fin de eliminar la suciedad, empleando métodos físicos o químicos para tal fin. Existen diferentes tipos de limpieza. <br>
             figure.mb-4
               img(src='@/assets/curso/tema3/img20.png')
             ol.lista-ol--cuadro.mb-4
@@ -210,6 +213,7 @@
             p La esterilización es un proceso por el cual se destruyen todos los microorganismos viables presentes en un objeto o superficie, incluidas las esporas bacterianas. Para lograr una correcta esterilización lo primero que se debe de realizar es la limpieza exhaustiva del material a esterilizar, que lleva a la eliminación de la suciedad visible y la materia orgánica que se encuentra alojada en una superficie u objeto, reduciendo así el número de microorganismos. 
             figure.mb-4
               img(src='@/assets/curso/tema3/img24.png')
+            p.mb-4 Existen diferentes métodos para lograr la esterilización, pero la escogencia de un método dependerá de las especificaciones del fabricante quien determina si el material se si puede o no se puede reprocesar. Los métodos más usados de esterilización son físicos y químicos. Veamos sus especificaciones. 
           .col-lg-11.mb-4
             .tabla-a.color-acento-contenido.mb-5 
               table                
@@ -228,12 +232,12 @@
                   tr
                     td Físico
                     td Calor Seco 
-                    td •No es corrosivo.<br>•esterilización de sustancias en polvo o no acuosas.<br>•Temperatura promedio entre 140ºC y 190ºC.
+                    td •No es corrosivo.<br>•Esterilización de sustancias en polvo o no acuosas.<br>•Temperatura promedio entre 140ºC y 190ºC.
                     td Mayor tiempo de esterilización.
                   tr.BG10
                     td Físico
                     td Radiación ionizante 
-                    td •método muy eficiente en la desactivación de microorganismos.<br>•Es rápido, flexible y tiene gran capacidad de penetración en lo materiales.
+                    td •Método muy eficiente en la desactivación de microorganismos.<br>•Es rápido, flexible y tiene gran capacidad de penetración en lo materiales.
                     td Solo puede ser aplicada dentro de instalación especificas con un alto nivel de seguridad.
                   tr
                     td Químico

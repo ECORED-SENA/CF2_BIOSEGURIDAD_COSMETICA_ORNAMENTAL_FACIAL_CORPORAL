@@ -93,7 +93,7 @@ export default {
     {
       texto:
         'Álvarez Heredia, F; Faizal, E; & Valderrama, F.  (2010). Riesgos biológicos y bioseguridad (2a. ed.). ECOE Ediciones.https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/69149?page=97',
-      tipo: 'Libro ',
+      tipo: 'Libro.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/171334',
     },
@@ -109,7 +109,7 @@ export default {
         'Moscoso Gama, J. M. (2020). Manual de Bioseguridad. El Cid Editor.',
       tipo: 'Libro.',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/69149 ',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/69149',
     },
     {
       texto:
@@ -288,7 +288,19 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

@@ -39,7 +39,7 @@
                   p.mb-4 Se refiere a la forma correcta de descartar todos aquellos elementos de riesgo patológico, teniendo como prioridad la protección de las personas y por supuesto la protección y conservación del medio ambiente.
       
     .row.justify-content-center
-      .col-lg-8
+      .col-lg-8.mb-5
         img(src='@/assets/curso/tema1/img06.svg')
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4(data-aos="fade-right")
@@ -119,7 +119,7 @@
             img(src='@/assets/curso/tema1/img09.png')
           .col-lg-9
             p Es importante tener presente que, dentro de las actividades realizadas por el personal de cosmética ornamental, facial y corporal, se deben tener presentes las recomendaciones de precaución universal con el fin de evitar la propagación de agentes patógenos que puedan afectar la salud de los trabajadores y de los usuarios que son atendidos. Con la intención de ampliar conocimientos en relación con la Universalidad le sugerimos leer el capítulo seis (6) texto “Riesgos biológicos y bioseguridad (2a. ed.)” de los autores Francisco Álvarez, Enriqueta Faizal y Fernando Valderrama (2010).
-            a.boton.color-acento-botones.me-3.mg4(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/69149?page=97" target="_blank").mb-0
+            a.boton.color-acento-botones.me-3.mg4(href="https://www.ecoeediciones.com/wp-content/uploads/2015/08/riesgos-biologicos-.pdf" target="_blank").mb-0
               span.text-white Enlace web  
                 .fa.fa-link.ms-2
       .col-lg-10(data-aos="fade-right")
@@ -186,7 +186,7 @@
         p Adicional a estos pasos, es importante garantizar la debida manipulación del artículo en el punto de atención de manera tal que no se contamine antes de usarlo. La utilización de los diversos métodos se hace con el fin de eliminar los microorganismos en los instrumentos, insumos o equipos; para que el proceso de desinfección sea real es importante contar con los siguientes criterios.
       .col-lg-8(data-aos="fade-right")
         LineaTiempoD
-          .row(numero="1" titulo="Resistencia de los microorganismos").p-3
+          .row(numero="1" titulo="Resistencia de los microorganismos").BG08.p-3
             .col-lg-11.mb-4
               p Son todas aquellas situaciones en la que los microorganismos impactan en la eficiencia de los procesos y pueden generar cierto tipo de resistencia a la esterilización.  Este tipo de condiciones pueden ser por la conformación de esporas y condiciones de la pared celular (lípidos, grosor). A continuación, se presentan los agentes infección. El orden define su resistencia. Siendo el 8 el mayor.
             .col-lg-5.sm-3
@@ -242,7 +242,7 @@
                     p Para más información revisa la página cuatro (4) de la página que direcciona el icono.
           .row(numero="3" titulo="Desinfección").p-3
             .col-lg-11.mb-4
-              p Es un proceso de eliminación de microorganismos En ciertas condiciones, algunos de estos procesos pueden eventualmente eliminar esporas bacterianas, aunque a la fecha no se dispone de métodos de certificación adecuados para usarlos como esterilizantes.   Esta puede clasificarse en:
+              p Es un proceso de eliminación de microorganismos. En ciertas condiciones, algunos de estos procesos pueden eventualmente eliminar esporas bacterianas, aunque a la fecha no se dispone de métodos de certificación adecuados para usarlos como esterilizantes.   Esta puede clasificarse en:
               table
                 thead.BG06
                   tr
@@ -251,7 +251,7 @@
                     th <span style="color:#3D80CC !important; font-weight: bold;">Desinfección de Nivel Bajo (DNB)</span>
                 tbody.BG04
                   tr 
-                    td Eliminación de todos los microorganismos tales como: micobacterias, hongos y esporas de hongos, virus, bacterias vegetativas. 
+                    <td colspan="2"> Eliminación de todos los microorganismos tales como: micobacterias, hongos y esporas de hongos, virus, bacterias vegetativas. </td>
                     td proceso de eliminación a través de productos químicos de formas vegetativas de bacterias, algunos hongos y virus lipídicos, sin tener efecto sobre microbacterias y esporas. 
           .row(numero="4" titulo="Factores que contribuyen en el método de esterilización").p-3.mb-4
             .col-lg-4.sm-3

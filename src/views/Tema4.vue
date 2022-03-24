@@ -12,7 +12,7 @@
 
     .row.justify-content-center
       .col-lg-10(data-aos="fade-right")
-        .bloque-texto-g.color-acento-botones.mb-4.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.mb-4.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema4/img01.png')})`}"
           )
@@ -117,7 +117,7 @@
                 .lista-ol--cuadro__vineta
                   span 3
                 | Archivar estos soportes por el tiempo de 5 años.
-          .col-lg-12
+          .col-lg-12.mb-4
             p Esta información ya diligenciada permitirá al generador identificar su clasificación de acuerdo con la cantidad de residuos peligrosos generados, siguiendo lo establecido en el Decreto 4741 de 2005.
           .col-lg-9
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -292,19 +292,23 @@
           .col-lg-9
             TabsA.color-acento-botones.mb-5
               .tarjeta.color-acento-botones--borde.p-4(titulo="Térmico con combustión")
+                h4 Térmico con combustión
                 p Utiliza energía térmica a temperaturas suficientes para causar combustión o pirólisis del residuo. (Ejemplo: pirólisis, incineración, etc.)
               .tarjeta.color-acento-botones--borde.p-4(titulo="Térmico sin combustión")
+                h4 Térmico sin combustión
                 p Utiliza energía térmica a temperaturas suficientes para destruir los microorganismos, pero no la suficiente para causar combustión o pirólisis del residuo. (Ejemplo: Autoclaves de calor húmedo, equipos de calor seco, microondas, infrarrojo, etc.) 
               .tarjeta.color-acento-botones--borde.p-4(titulo="Químico")
+                h4 Químico
                 p Utiliza desinfectantes químicos para destruir patógenos en el residuo. (Ejemplo: ácidos, álcalis, sustancias oxidantes, etc.).
               .tarjeta.color-acento-botones--borde.p-4(titulo="Por irradiación")
+                h4 Por irradiación
                 p Utiliza radiación para destruir patógenos en el residuo. (Ejemplo: Radiación UV, Cobalto 60, etc.)
         p Para que la gestión integral de residuos sea organizada de manera correcta, es indispensable que el personal que realiza la atención de usuarios conozca el código de colores para que de esta manera se pueda organizar adecuadamente la ubicación de los recipientes. En el año 2021 empiezan a regir nuevos códigos de colores para la separación de residuos según la Resolución 2184 de diciembre de 2019. Observe la siguiente caracterización de los colores con respecto a los objetos que se pueden depositar.
 
-    .row.justify-content-center.align-items-center.BGIMG11.mb-5.p-0
+    .row.justify-content-center.align-items-center.BGIMG11.mb-2.p-0
       .col-lg-12
         <br><br><br><br>
-      .col-lg-3.d-flex.mb-4
+      .col-lg-3.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema4/img23.png' alt='AvatarTop')
           .tarjeta.BG04.p-4
@@ -322,7 +326,7 @@
           .tarjeta.BG04.p-4
             <br><br>
             p El color verde para depositar residuos orgánicos aprovechables como los restos de comida, desechos agrícolas, etc.
-      .col-lg-7.mb-4
+      .col-lg-7.mb-2
         p Es el código de colores que deberá ser adoptado por los municipios o distritos y permitirá facilitar la separación en los hogares y, si bien la norma no menciona cambios al manejo que debe darse a los residuos peligrosos en recipientes y bolsas rojas, dicha separación debe realizarse según la Resolución 01164 de 2002 en la que se expresa:
       .col-lg-9
         .tarjeta-avatar
