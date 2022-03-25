@@ -94,7 +94,7 @@
       .tarjeta.BG03.p-3(x="84.1%" y="93%")
         p Lavar muy bien las manos, antebrazo y brazo.
   
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-4
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right").mb-4
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
@@ -105,95 +105,94 @@
             p Es importante tener presente que la colocación del uniforme (batas) y los zapatos, se debe realizar en el momento de ingresar al área de trabajo y el retiro debe realizarse al fin de la jornada.
             <br><br>
             p En la siguiente tabla se relacionan los elementos de protección personal a utilizar según el servicio de estética ornamental, facial y corporal. 
-
+  
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 1
       span Elementos de protección y servicios de estética
-
-    <div id="div1"> 
-      table(data-aos="fade-right").mb-4
-        thead.BG07
-          tr
-            th.text-white Procedimiento 
-            th.text-white Gorro 
-            th.text-white Protector Auditivo  
-            th.text-white Gafas/ careta 
-            th.text-white Mascarilla 
-            th.text-white Respirador con filtro 
-            th.text-white Bata/ Delantal 
-            th.text-white Uniforme 
-            th.text-white Guantes 
-            th.text-white Zapatos  
-        tbody    
-          tr.BG11
-            th Tratamientos faciales y corporales
-            td Si
-            td No
-            td Si
-            td Si
-            td No
-            td Si
-            td Si
-            td Si
-            td Si
-          tr 
-            th Maquillaje
-            td No
-            td No
-            td Si
-            td Si
-            td No
-            td Si
-            td Si
-            td Si
-            td Si
-          tr.BG11 
-            th Procedimientos químicos (cabellos y uñas) 
-            td No
-            td No
-            td Si
-            td No
-            td Si
-            td Si
-            td Si
-            td Si
-            td Si
-          tr 
-            th Corte de cabello y barbería 
-            td No
-            td No
-            td Si
-            td Si
-            td No
-            td Si
-            td Si
-            td Si
-            td Si
-          tr.BG11 
-            th Cepillado y planchado del cabello  
-            td No
-            td Si
-            td Si
-            td Si
-            td No
-            td Si
-            td Si
-            td No
-            td Si
-          tr 
-            th Manicura y pedicura   
-            td No
-            td No
-            td Si
-            td Si
-            td No
-            td Si
-            td Si
-            td Si
-            td Si
-    </div>
+   
+    table.mb-5(data-aos="fade-right")
+      thead.BG07 
+        tr
+          th.text-white Procedimiento 
+          th.text-white Gorro 
+          th.text-white Protector Auditivo  
+          th.text-white Gafas/ careta 
+          th.text-white Mascarilla 
+          th.text-white Respirador con filtro 
+          th.text-white Bata/ Delantal 
+          th.text-white Uniforme 
+          th.text-white Guantes 
+          th.text-white Zapatos  
+      tbody    
+        tr.BG11
+          th Tratamientos faciales y corporales
+          td Si
+          td No
+          td Si
+          td Si
+          td No
+          td Si
+          td Si
+          td Si
+          td Si
+        tr 
+          th Maquillaje
+          td No
+          td No
+          td Si
+          td Si
+          td No
+          td Si
+          td Si
+          td Si
+          td Si
+        tr.BG11 
+          th Procedimientos químicos (cabellos y uñas) 
+          td No
+          td No
+          td Si
+          td No
+          td Si
+          td Si
+          td Si
+          td Si
+          td Si
+        tr 
+          th Corte de cabello y barbería 
+          td No
+          td No
+          td Si
+          td Si
+          td No
+          td Si
+          td Si
+          td Si
+          td Si
+        tr.BG11 
+          th Cepillado y planchado del cabello  
+          td No
+          td Si
+          td Si
+          td Si
+          td No
+          td Si
+          td Si
+          td No
+          td Si
+        tr 
+          th Manicura y pedicura   
+          td No
+          td No
+          td Si
+          td Si
+          td No
+          td Si
+          td Si
+          td Si
+          td Si
+  
     .row.justify-content-center
-      .col-lg-10(data-aos="fade-right")
+      .col-lg-10(data-aos="fade-right").mb-4
         p Dentro del conjunto de elementos de protección personal encontramos dos rutas, disposición como residuo o reutilización. A continuación, se relaciona el elemento de protección personal y el adecuado manejo después de su uso.
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")

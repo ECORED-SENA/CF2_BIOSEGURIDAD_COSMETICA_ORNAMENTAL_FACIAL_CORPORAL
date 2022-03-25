@@ -252,7 +252,7 @@
                 tbody.BG04
                   tr 
                     <td colspan="2"> Eliminación de todos los microorganismos tales como: micobacterias, hongos y esporas de hongos, virus, bacterias vegetativas. </td>
-                    td proceso de eliminación a través de productos químicos de formas vegetativas de bacterias, algunos hongos y virus lipídicos, sin tener efecto sobre microbacterias y esporas. 
+                    td Proceso de eliminación a través de productos químicos de formas vegetativas de bacterias, algunos hongos y virus lipídicos, sin tener efecto sobre microbacterias y esporas. 
           .row(numero="4" titulo="Factores que contribuyen en el método de esterilización").p-3.mb-4
             .col-lg-4.sm-3
               figure
