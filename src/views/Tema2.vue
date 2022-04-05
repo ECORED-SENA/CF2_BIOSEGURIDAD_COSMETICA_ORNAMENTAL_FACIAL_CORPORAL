@@ -9,7 +9,7 @@
 
     .cajon-b.color-secundario.p-4.mb-4(data-aos="fade-right")
       p Los elementos de protección personal (EPP) se definen como la indumentaria a utilizar por el personal de la salud o afines con el objetivo de crear una barrera física entre el prestador del servicio, el entorno o un elemento determinado, es decir los EPP protegen de riesgo y evitan contacto directo con material orgánico o demás elementos que puedan causar daño a las personas. Los EPP deben usarse de manera articulada con otras estrategias de prevención requeridas según el tipo de atención a realizar en el contexto de la salud y la cosmética. 
-    p Sabes ¿cuáles son los tipos de riesgos que usted se puede aproximar? Lee con atención para encontrar una respuesta.  Existen trabajos que por sus condiciones exponen al trabajador a un peligro que puede generar una enfermedad o lesión. Algunos riesgos existentes son: 
+      p Sabes ¿cuáles son los tipos de riesgos que usted se puede aproximar? Lee con atención para encontrar una respuesta.  Existen trabajos que por sus condiciones exponen al trabajador a un peligro que puede generar una enfermedad o lesión. Algunos riesgos existentes son: 
 
     .row.justify-content-center
       .col-lg-10.BG01(data-aos="fade-right")
