@@ -71,7 +71,7 @@
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img15.png') 
+          img(src='@/assets/curso/tema2/img15.svg') 
 
       .tarjeta.BG03.p-3(x="16%" y="93%")
         p Desde una de las manos, se toma el guante de la mano contraria y se extrae. El guante permanece en la mano que tiene aún el guante. Desde un dedo de la otra mano que quedó libre, se debe retirar el guante desde la parte interna, la que está en contacto con la piel y que, por ende, es la zona limpia. Se deben desechar en la caneca de residuos biológicos. Si la piel llegase a tocar la parte sucia de los guantes, se debe lavar las manos inmediatamente y aplicar loción desinfectante o alcohol.
@@ -126,70 +126,70 @@
       tbody    
         tr.BG11
           th Tratamientos faciales y corporales
-          td Si
-          td No
-          td Si
-          td Si
-          td No
-          td Si
-          td Si
-          td Si
-          td Si
+          td.text-center Sí
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
         tr 
           th Maquillaje
-          td No
-          td No
-          td Si
-          td Si
-          td No
-          td Si
-          td Si
-          td Si
-          td Si
+          td.text-center No
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
         tr.BG11 
           th Procedimientos químicos (cabellos y uñas) 
-          td No
-          td No
-          td Si
-          td No
-          td Si
-          td Si
-          td Si
-          td Si
-          td Si
+          td.text-center No
+          td.text-center No
+          td.text-center Sí
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
         tr 
           th Corte de cabello y barbería 
-          td No
-          td No
-          td Si
-          td Si
-          td No
-          td Si
-          td Si
-          td Si
-          td Si
+          td.text-center No
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
         tr.BG11 
           th Cepillado y planchado del cabello  
-          td No
-          td Si
-          td Si
-          td Si
-          td No
-          td Si
-          td Si
-          td No
-          td Si
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center No
+          td.text-center Sí
         tr 
           th Manicura y pedicura   
-          td No
-          td No
-          td Si
-          td Si
-          td No
-          td Si
-          td Si
-          td Si
-          td Si
+          td.text-center No
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center No
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
+          td.text-center Sí
   
     .row.justify-content-center
       .col-lg-10(data-aos="fade-right").mb-4
@@ -207,39 +207,39 @@
           table        
             tr.BG06
               td Gorro de tela 
-              td Si, lavado y desinfección 
+              td Sí, lavado y desinfección 
               td 
-            tr
+            tr.BG04
               td Protector Auditivo 
-              td Si, limpieza  
+              td Sí, limpieza  
               td 
             tr.BG06
-              td Gafas/ careta  
-              td Si, limpieza y desinfección   
+              td Gafas/careta  
+              td Sí, limpieza y desinfección   
               td      
-            tr
+            tr.BG04
               td Mascarilla   
               td   
-              td Si, Riesgo biológico (bolsa roja).
+              td Sí, Riesgo biológico (bolsa roja).
             tr.BG06
               td Respirador con filtro    
-              td Si, según recomendación del fabricante  
+              td Sí, según recomendación del fabricante  
               td 
-            tr
-              td Bata/ Delantal     
-              td Si, limpieza y desinfección   
+            tr.BG04
+              td Bata/Delantal     
+              td Sí, limpieza y desinfección   
               td 
             tr.BG06
               td Uniforme      
-              td Si, limpieza y desinfección   
+              td Sí, limpieza y desinfección   
               td 
-            tr
+            tr.BG04
               td Guantes      
               td  
-              td Si, riesgo biológico (bolsa roja).
+              td Sí, riesgo biológico (bolsa roja).
             tr.BG06
               td Zapatos      
-              td Si, limpieza 
+              td Sí, limpieza 
               td
 
       

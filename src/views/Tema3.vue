@@ -234,7 +234,7 @@
                     td Calor Seco 
                     td •No es corrosivo.<br>•Esterilización de sustancias en polvo o no acuosas.<br>•Temperatura promedio entre 140ºC y 190ºC.
                     td Mayor tiempo de esterilización.
-                  tr.BG10
+                  tr.BG06
                     td Físico
                     td Radiación ionizante 
                     td •Método muy eficiente en la desactivación de microorganismos.<br>•Es rápido, flexible y tiene gran capacidad de penetración en lo materiales.
@@ -254,12 +254,12 @@
                     td Ozono 
                     td Esterilización de material sensible a la temperatura.
                     td Es de uso limitado.
-                  tr.BG10
+                  tr.BG06
                     td Químico
                     td Gas/solución de formaldehído 
                     td •Alto poder germicida.<br>•No es explosivo ni inflamable en las concentraciones necesarias para esterilizar.
                     td •Altamente tóxico.<br>•Tiempo de desinfección entre 2 a 4 horas.
-          .col-lg-8.mb-4.BG09
+          .col-lg-10.mb-4.BG09
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4
                 h4 Esterilización o desinfección de alto nivel 

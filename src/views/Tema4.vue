@@ -83,7 +83,7 @@
           .col-10
             h2.text-center Gestión interna
             p Según el Ministerio del Medio Ambiente y Ministerio de Salud (2002):
-            p “Consiste en la planeación e implementación articulada de todas y cada una de las actividades realizadas al interior de la entidad generadora de residuos hospitalarios y similares”( p 32).
+            p “Consiste en la planeación e implementación articulada de todas y cada una de las actividades realizadas al interior de la entidad generadora de residuos hospitalarios y similares” (p 32).
       .col-md.tarjeta.BGIMG05.p-5(data-aos="fade-left")
         .row.justify-content-center.mb-4
           .col-5
@@ -121,8 +121,8 @@
             p Esta información ya diligenciada permitirá al generador identificar su clasificación de acuerdo con la cantidad de residuos peligrosos generados, siguiendo lo establecido en el Decreto 4741 de 2005.
           .col-lg-9
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-              h5 Tabla 2
-              span Uso y reuso de EPP.         
+              h5 Tabla 3
+              span Tipo de generador.         
             .tabla-b.mb-5(data-aos="fade-right")
               .tabla-b__header.color-acento-contenido
                 tr
@@ -312,8 +312,8 @@
         .tarjeta-avatar
           img(src='@/assets/curso/tema4/img23.png' alt='AvatarTop')
           .tarjeta.BG04.p-4
-            <br><br>
-            p Color blanco será para depositar los residuos aprovechables como plástico, vidrio, metales, papel y cartón.
+            br            
+            p.my-5 Color blanco será para depositar los residuos aprovechables como plástico, vidrio, metales, papel y cartón.
       .col-lg-3.d-flex.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema4/img24.png' alt='AvatarTop')
@@ -323,9 +323,8 @@
       .col-lg-3.d-flex.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema4/img25.png' alt='AvatarTop')
-          .tarjeta.BG04.p-4
-            <br><br>
-            p El color verde para depositar residuos orgánicos aprovechables como los restos de comida, desechos agrícolas, etc.
+          .tarjeta.BG04.p-4            
+            p.my-5  El color verde para depositar residuos orgánicos aprovechables como los restos de comida, desechos agrícolas, etc.
       .col-lg-7.mb-2
         p Es el código de colores que deberá ser adoptado por los municipios o distritos y permitirá facilitar la separación en los hogares y, si bien la norma no menciona cambios al manejo que debe darse a los residuos peligrosos en recipientes y bolsas rojas, dicha separación debe realizarse según la Resolución 01164 de 2002 en la que se expresa:
       .col-lg-9
@@ -347,7 +346,9 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Dentro del plan de gestión de residuos hospitalarios, es indispensable contar con la empresa que realiza el proceso de recolección de residuos. La empresa contratada debe cumplir con las funciones de recolección hasta la disposición final de los residuos (pasando por los procesos de aprovechamiento de residuos reciclables y tratamiento fuera de las instalaciones del prestador, siguiendo los lineamientos normativos.  Es importante tener presente que cuando se realiza el transporte de los residuos peligrosos de tipo infeccioso y no peligrosos para que se realice el almacenamiento central, el personal encargado de hacer esta acción interna de los residuos debe anotar en el formato Registro diario de Generación de residuos infecciosos y no peligrosos los datos: fecha de entrega, área de procedencia del residuo, cantidad en peso (Kg) y el tipo de desactivación realizada previo a su recolección interna. 
-        p Es de relevancia, mencionar que el plan de gestión integral de residuos debe contar con plan de auditoría interna; así se debe tener en cuenta que las entidades de control y seguimiento podrán realizar auditorías al proceso. Es importante manifestar que se realizarán las respectivas auditorías internas estipuladas dentro del manual de bioseguridad y se deberán programar de manera eventual monitoreos aleatorios en las diversas áreas.  El proceso de auditoría tiene como objetivo revisar cada uno de los procedimientos y actividades planeadas en la gestión integral de residuos. Esto se hace con el fin de validar los resultados y establecer las medidas correctivas que se puedan generar. Esta evaluación deberá incluir la evaluación integral de todas las actividades del proceso: la segregación, el etiquetado, la manipulación y la desactivación.  
+        .bloque-texto-b.color-secundario.p-4
+          .bloque-texto-b__texto
+            p Es de relevancia, mencionar que el plan de gestión integral de residuos debe contar con plan de auditoría interna; así se debe tener en cuenta que las entidades de control y seguimiento podrán realizar auditorías al proceso. Es importante manifestar que se realizarán las respectivas auditorías internas estipuladas dentro del manual de bioseguridad y se deberán programar de manera eventual monitoreos aleatorios en las diversas áreas.  El proceso de auditoría tiene como objetivo revisar cada uno de los procedimientos y actividades planeadas en la gestión integral de residuos. Esto se hace con el fin de validar los resultados y establecer las medidas correctivas que se puedan generar. Esta evaluación deberá incluir la evaluación integral de todas las actividades del proceso: la segregación, el etiquetado, la manipulación y la desactivación.  
 
     
 

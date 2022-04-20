@@ -8,13 +8,19 @@
   background-color: #E1DFEC
 
 .BG04
-  background-color: #FFFF
+  background-color: #FFFF !important
 
 .LineaTiempoD
   background: linear-gradient(to bottom,#E1DFEC,#FEFFFF)
 
 .cajon.color-acento-contenido
   background-color: #FDECED
+
+.cajon-b.color-secundario:before
+  background-color: #FDECED
+
+.cajon-b:before
+  opacity: 1
 
 .cajon.color-primario
   background-color: #DBFFFF
@@ -47,6 +53,7 @@
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #483C8C
+  top: 185px
 
 
 .BGIMG01
@@ -163,16 +170,47 @@
   min-width: 170px
 
 .tarjeta--gris
-  background-color: #DBFFFF
+  background-color: #8EE5F6
 
 .tarjeta.color-acento-botones--borde
   background-color: #FDECED
   border: #FDECED
+  width: 90%
+  position: relative
+  right: -50px
+
+.tabs-a__tab:last-child
+  width: 220px
+
+.tabs-a__tab
+  background-color: #E8E8E8
 
 .tarjeta--blanca
-  border-radius: 0px
+  border-top-left-radius: 25px
+  border-top-right-radius: 25px
 
 @media screen and (max-width: 1200px)
   table
     display: block
     overflow-x: auto
+
+.linea-tiempo-d__item__content__slot
+  background: linear-gradient(to bottom,#E1DFEC,#FFFF)
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #E1DFEC
+
+.bloque-texto-b.color-secundario:before
+  background-color: #FDECED
+  top: 125px
+  left: 520px
+
+.bloque-texto-g__texto
+ width: 67%
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #483C8C
+  color: white
+
+.linea-tiempo-d__item__content__title
+  background-color: #DBFFFF

@@ -49,26 +49,26 @@
           .col-lg-11.mb-4
             br
             SlyderA(tipo="b")
-              .row
-                .col-lg-10 
+              .row.justify-content-center
+                .col-lg-8 
                 P Conservar el lugar de labores en adecuadas condiciones de higiene y aseo. Todas las condiciones referentes a la ventilación, iluminación y temperatura de las diversas zonas del establecimiento deben ser óptimas. 
               .row
-                .col-lg-10 
+                .col-lg-8
                 p Toda persona que sea atendida debe ser considerada como una persona potencialmente transmisora de agentes biológicos. 
               .row
-                .col-lg-10 
+                .col-lg-8
                 p Es necesario que la actividad correspondiente a la limpieza de manos sea antes y después de la atención de cada usuario. Adicional, también se debe realizar cuando se tenga contacto con algún tipo de material patógeno. Se sugiere utilizar guantes cuando sea necesario. Algunos casos son cuando hay manipulación de elementos biológicos, manejo de instrumental o de equipos contaminados. 
               .row
-                .col-lg-10 
+                .col-lg-8
                 p Los elementos de protección personal deben estar almacenados en buenas condiciones, en lugar seguro y de buena accesibilidad.
               .row
-                .col-lg-10 
+                .col-lg-8
                 p Contar con protocolo de limpieza, desinfección y esterilización en caso de que aplique. Es importante tener presente que se debe utilizar material de un sólo uso, sólo podrá tener más de un uso, aquellos que cuente con la indicación en la ficha técnica por parte del proveedor. 
               .row
-                .col-lg-10 
+                .col-lg-8
                 p Tener el plan de gestión integral de residuos acorde con lo escrito a nivel normativo. Se debe tener presente que todas las bolsas y recipientes que contengan desechos deben ser correctamente cerradas y dirigidas al lugar que esté destinado para su almacenamiento. 
               .row
-                .col-lg-10 
+                .col-lg-8
                 p Se debe poner el símbolo universal de residuo biológico en la puerta donde quede el área donde se almacenan los residuos de este tipo y demás lugares que se estimen convenientes dentro del PGIRP (Plan de Gestión Integral de Residuos Provenientes de Centros de Estética peluquerías y actividades similares)
         
     .row.justify-content-center.mb-4
@@ -85,7 +85,7 @@
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img08.png') 
+          img(src='@/assets/curso/tema1/img08.svg') 
 
       .tarjeta.BG03.p-3(x="24.5%" y="17.5%")
         p Se debe lavar las manos con agua y jabón después de tener contacto con fluidos o secreciones corporales; así mismo si utilizo guantes, inmediatamente después de retirarlos se debe ejecutar esta acción. Es indispensable tener presente que se deben lavar las manos cuando se tenga contacto entre pacientes y en toda ocasión que se requiera. Se debe realizar el lavado de manos y las otras superficies cutáneas antes y después de cada actividad asistencial. 
@@ -186,7 +186,7 @@
         p Adicional a estos pasos, es importante garantizar la debida manipulación del artículo en el punto de atención de manera tal que no se contamine antes de usarlo. La utilización de los diversos métodos se hace con el fin de eliminar los microorganismos en los instrumentos, insumos o equipos; para que el proceso de desinfección sea real es importante contar con los siguientes criterios.
       .col-lg-8(data-aos="fade-right")
         LineaTiempoD
-          .row(numero="1" titulo="Resistencia de los microorganismos").BG08.p-3
+          .row(numero="1" titulo="Resistencia de los microorganismos").p-3
             .col-lg-11.mb-4
               p Son todas aquellas situaciones en la que los microorganismos impactan en la eficiencia de los procesos y pueden generar cierto tipo de resistencia a la esterilización.  Este tipo de condiciones pueden ser por la conformación de esporas y condiciones de la pared celular (lípidos, grosor). A continuación, se presentan los agentes infección. El orden define su resistencia. Siendo el 8 el mayor.
             .col-lg-5.sm-3
