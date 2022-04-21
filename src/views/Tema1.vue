@@ -185,7 +185,7 @@
       .col-lg-10(data-aos="fade-right")
         p Adicional a estos pasos, es importante garantizar la debida manipulación del artículo en el punto de atención de manera tal que no se contamine antes de usarlo. La utilización de los diversos métodos se hace con el fin de eliminar los microorganismos en los instrumentos, insumos o equipos; para que el proceso de desinfección sea real es importante contar con los siguientes criterios.
       .col-lg-8(data-aos="fade-right")
-        LineaTiempoD
+        LineaTiempoD.color-primario.mb-4
           .row(numero="1" titulo="Resistencia de los microorganismos").p-3
             .col-lg-11.mb-4
               p Son todas aquellas situaciones en la que los microorganismos impactan en la eficiencia de los procesos y pueden generar cierto tipo de resistencia a la esterilización.  Este tipo de condiciones pueden ser por la conformación de esporas y condiciones de la pared celular (lípidos, grosor). A continuación, se presentan los agentes infección. El orden define su resistencia. Siendo el 8 el mayor.

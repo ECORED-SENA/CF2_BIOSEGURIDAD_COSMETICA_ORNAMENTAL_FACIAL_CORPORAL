@@ -22,8 +22,8 @@
         p Conociendo las características de estos riesgos, se crean diferentes protocolos, que guían a los profesionales en buenas prácticas sobre el manejo de los residuos sanitarios. Estas prácticas tienen técnicas necesarias para su ejecución, a partir de los procedimientos de gestión interna y externa de residuos sanitarios.  
         br
         .row.BG12.justify.content-center.align-items-center.mb-4
-          .col-lg-4
-            img(src='@/assets/curso/tema4/img02.png' alt='AvatarTop')
+          .col-lg-4.p-4
+            img(src='@/assets/curso/tema4/img02.svg' alt='AvatarTop')
           .col-lg-8.p-4
             p Para iniciar este proceso de aprendizaje, se debe entender que los residuos hospitalarios y similares se definen como elementos, insumos, materiales o instrumentos que tienen suficientes patógenos como para causar una enfermedad. Normalmente, están relacionados con fluidos corporales y sangre, resultantes de las actividades de diferentes sectores, tales como: cementerios, centros de estética y cosmetología, docencia, farmacias, mataderos, salud, tanatopraxia y veterinarios.
 
@@ -32,7 +32,7 @@
       ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)
           figure(data-aos="fade-right")
-            img(src='@/assets/curso/tema4/img03.png') 
+            img(src='@/assets/curso/tema4/img03.svg') 
 
         .tarjeta.BG03.p-3(x="25.1%" y="25.2%")
           p Son los residuos producidos por el generador con características de origen infeccioso, radiactivo, químico, corrosivo, tóxico, entre otros, que representan un riesgo para la comunidad y el medio ambiente.
@@ -79,7 +79,7 @@
         .row.justify-content-center.mb-4
           .col-5.mb-4
             figure
-              img(src='@/assets/curso/tema4/img04.png')
+              img(src='@/assets/curso/tema4/img04.svg')
           .col-10
             h2.text-center Gestión interna
             p Según el Ministerio del Medio Ambiente y Ministerio de Salud (2002):
@@ -88,7 +88,7 @@
         .row.justify-content-center.mb-4
           .col-5
             figure.mb-4
-              img(src='@/assets/curso/tema4/img05.png')
+              img(src='@/assets/curso/tema4/img05.svg')
           .col-10
             h2.text-center Gestión externa
             p Según el Ministerio del Medio Ambiente y Ministerio de Salud (2002):
@@ -102,7 +102,7 @@
       .col-lg-10.mb-4
         .row.justify-content-center.mb-4
           .col-lg-3
-            img(src='@/assets/curso/tema4/img07.png')
+            img(src='@/assets/curso/tema4/img07.svg')
           .col-lg-9.mb-4
             ol.lista-ol--cuadro.mb-4
               li 
@@ -310,26 +310,26 @@
         <br><br><br><br>
       .col-lg-3.mb-4
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img23.png' alt='AvatarTop')
+          img(src='@/assets/curso/tema4/img23.svg' alt='AvatarTop')
           .tarjeta.BG04.p-4
             br            
             p.my-5 Color blanco será para depositar los residuos aprovechables como plástico, vidrio, metales, papel y cartón.
       .col-lg-3.d-flex.mb-4
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img24.png' alt='AvatarTop')
+          img(src='@/assets/curso/tema4/img24.svg' alt='AvatarTop')
           .tarjeta.BG04.p-4
             <br><br>
             p El color negro para depositar los residuos no aprovechables como el papel higiénico, servilletas, papeles y cartones contaminados con comida, papeles metalizados, entre otros.
       .col-lg-3.d-flex.mb-4
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img25.png' alt='AvatarTop')
+          img(src='@/assets/curso/tema4/img25.svg' alt='AvatarTop')
           .tarjeta.BG04.p-4            
             p.my-5  El color verde para depositar residuos orgánicos aprovechables como los restos de comida, desechos agrícolas, etc.
       .col-lg-7.mb-2
         p Es el código de colores que deberá ser adoptado por los municipios o distritos y permitirá facilitar la separación en los hogares y, si bien la norma no menciona cambios al manejo que debe darse a los residuos peligrosos en recipientes y bolsas rojas, dicha separación debe realizarse según la Resolución 01164 de 2002 en la que se expresa:
       .col-lg-9
         .tarjeta-avatar
-            img(src='@/assets/curso/tema4/img26.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema4/img26.svg' alt='AvatarTop')
             .tarjeta.BG04.p-4
               <br><br>
               p.mb-0 El color rojo implica riesgo biológico, materiales biosanitarios o que han estado en contacto con fluidos corporales u órganos (como algodones, campos quirúrgicos, compresas, guantes, mascarillas, ropa descartable o de uso único contaminada con sangre y otros fluidos, sábanas y cobertores de mesas); anatomopatológicos, de animales, elementos cortopunzantes, radioactivos, residuos que contienen o están contaminados por radionúclidos en concentraciones o actividades superiores a los niveles de exención establecidos por la autoridad competente y para los cuales ya no se prevé ningún uso posterior; y otros como corrosivos, explosivos, inflamables, reactivos y tóxicos.

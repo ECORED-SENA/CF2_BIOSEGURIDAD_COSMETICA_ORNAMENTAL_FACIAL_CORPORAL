@@ -26,22 +26,22 @@
               p.text-center En la limpieza se pueden identificar tres grandes protagonistas: el agua, el jabón y la fuerza. Le sugerimos identificar la característica de estos a continuación. 
 
       .col-lg-10
-        .row.mb-5
-          .col-lg-4(data-aos="fade-right")
+        .row.mb-5.justify-content-center
+          .col-lg-4.col-md-6.col-6(data-aos="fade-right")
             .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img02.png')})`}")
                 .tarjeta-flip__contenido.BG06.p-4.p-xl-5                  
                   p Esta molécula es ampliamente reconocida como la fuente de vida, debido a sus componentes y los beneficios que ésta ofrece. Químicamente el agua se define como el solvente universal gracias a su estructura molecular. En los procesos de limpieza su función es fundamental a esta generar los puentes de unión entre las soluciones detergentes y la suciedad favoreciendo la remoción o desprendimiento de la superficie y facilitando la acción del detergente.
-          .col-lg-4
+          .col-lg-4.col-md-6.col-6
             .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img03.png')})`}")
                 .tarjeta-flip__contenido.BG06.p-4.p-xl-5                  
                   p Productos sintéticos, por lo general derivados del petróleo, solubles en el agua, efectivos para la limpieza de áreas y elementos inanimados. Debido a sus componentes de afinidad grasa y con el agua se pueden crear puentes de agua que remueven la suciedad. Dentro de los productos detergentes podemos encontrar aquellos que por su PH pueden clasificarse en: 1. Jabones ácidos (ácido sulfúrico) 2. Jabones neutros y 3.  Jabones Básicos.
-          .col-lg-4(data-aos="fade-left")
+          .col-lg-4.col-md-6.col-6(data-aos="fade-left")
             .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
@@ -55,7 +55,7 @@
         hr
         .row.justify.content-center.align-items-center
           .col-lg-2
-            img(src='@/assets/curso/tema3/img06.png')
+            img(src='@/assets/curso/tema3/img06.svg')
           .col-10
             p Elimine mecánicamente toda materia en las superficies y objetos se ejecuta con agua y jabón, para bajar la carga de microorganismos por medio del arrastre mecánico.
         hr
@@ -63,55 +63,55 @@
         hr
         .row.justify.content-center.align-items-center
           .col-lg-2
-            img(src='@/assets/curso/tema3/img07.png')
+            img(src='@/assets/curso/tema3/img07.svg')
           .col-10
             p Arrastre mecánicamente la materia orgánica utilizando varios elementos tales como: trapo, cepillo o trapeador. 
             br
         hr
       .col-lg-10.mb-4(data-aos="fade-right")
         .row.justify.content-center.align-items-center
-          .col-lg-1.col-sm-2
-            img(src='@/assets/curso/tema3/img08.png')
+          .col-lg-1.col-sm-10.mb-4
+            img(src='@/assets/curso/tema3/img08.svg')
           .col-11.col-sm-10
             p Haga la limpieza con agua y detergentes que tengan acción bactericida o germicida, para disminuir la carga de agentes patógenos o microorganismos. La limpieza en el contexto de la cosmetología se recomienda ejecutarse en los siguientes pasos:
       .col-lg-8
         .row.justify.content-center.align-items-center
-          .col-lg-6.col-sm-9.mb-4(data-aos="fade-right")
-            .row.BGIMG07.p-2
-              .col-3
-              .col-9
-                p Realice una limpieza inicialmente con el trapero húmedo para recoger el polvo y las diversas partículas.
-          .col-lg-6.col-sm-9.mb-4(data-aos="fade-left")
-            .row.BGIMG08.p-2
-              .col-3
-              .col-9
-                p Haga uso de dos baldes, para que en uno se mezcle el agua y jabón y en el otro sólo agua para enjuagar.      
           .col-lg-6.col-sm-10.mb-4(data-aos="fade-right")
-            .row.BGIMG09.p-2
+            .row.BGIMG07.p-3
               .col-3
               .col-9
-                p Inicie la limpieza con los lugares más limpios y termine en los más sucios. 
+                p <br> Realice una limpieza inicialmente con el trapero húmedo para recoger el polvo y las diversas partículas.
+          .col-lg-6.col-sm-10.mb-4(data-aos="fade-left")
+            .row.BGIMG08.p-3
+              .col-3
+              .col-9
+                p <br> Haga uso de dos baldes, para que en uno se mezcle el agua y jabón y en el otro sólo agua para enjuagar.      
+          .col-lg-6.col-sm-10.mb-4(data-aos="fade-right")
+            .row.BGIMG09.p-1
+              .col-3
+              .col-9
+                p <br><br>Inicie la limpieza con los lugares más limpios y termine en los más sucios. 
                 br
           .col-lg-6.col-sm-10.mb-4(data-aos="fade-left")
-            .row.BGIMG10.p-2
+            .row.BGIMG10.p-3
               .col-3
               .col-9
                 <br>
-                p Lave con agua y jabón los elementos utilizados.
+                p <br> Lave con agua y jabón los elementos utilizados.
                 <br>
       .col-lg-10.mb-3
         <br><hr><br>
         .row.justify.content-center.align-items-center(data-aos="fade-right")
           .col-lg-1.col-sm-2
-            img(src='@/assets/curso/tema3/img10.png')
+            img(src='@/assets/curso/tema3/img10.svg')
           .col-11.col-sm-10
             p Diligencie el formato de registro de la ejecución de procedimientos de limpieza. En este se describe el cronograma de periodicidad de prácticas de limpieza, responsable de la ejecución, productos utilizados, la fecha y el paso a paso de cómo se realizó. 
 
       .col-lg-6.mb-5(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img11.png' alt='AvatarTop')
-          .tarjeta.BG04.p-2
-            p Las personas asignadas para que realicen el proceso de limpieza deben contar con los artículos de protección personal descritos anteriormente.
+          .tarjeta.BG04.p-3
+            p.text-center Las personas asignadas para que realicen el proceso de limpieza deben contar con los artículos de protección personal descritos anteriormente.
 
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
@@ -122,7 +122,7 @@
         .row.justify-content-center.mb-4
           .col-5.mb-4
             figure
-              img(src='@/assets/curso/tema3/img12.png')
+              img(src='@/assets/curso/tema3/img12.svg')
           .col-10
             h2.text-center Desinfección
             p Consiste en eliminar los microorganismos presentes en objetos u otras superficies mediante un proceso físico y químico, este último se caracteriza por el uso de productos químicos desinfectantes.
@@ -130,7 +130,7 @@
         .row.justify-content-center.mb-4
           .col-5
             figure.mb-4
-              img(src='@/assets/curso/tema3/img13.png')
+              img(src='@/assets/curso/tema3/img13.svg')
           .col-10
             h2.text-center Esterilización
             p Se define como la liberación de microorganismos de un producto o superficie. Este proceso permite la muerte de toda forma de vida microbiana, incluyendo las bacterias y las formas esporuladas altamente resistentes, como lo son los hongos, las esporas y los virus.      
@@ -146,17 +146,17 @@
             .col-3
               button.EditBtn(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
                 figure
-                  img(src='@/assets/curso/tema3/img16.png', alt='1A')
+                  img(src='@/assets/curso/tema3/img16.svg', alt='1A')
               .multi-collapse1.brBTN.collapse.show(data-bs-parent='#MapaGroup01')
             .col-3
               button.EditBtn(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2')
                 figure
-                  img(src='@/assets/curso/tema3/img17.png', alt='2A')
+                  img(src='@/assets/curso/tema3/img17.svg', alt='2A')
               .multi-collapse2.brBTN.collapse(data-bs-parent='#MapaGroup01')
             .col-3
               button.EditBtn(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='false' aria-controls='.multi-collapse3')
                 figure
-                  img(src='@/assets/curso/tema3/img18.png', alt='3A')
+                  img(src='@/assets/curso/tema3/img18.svg', alt='3A')
               .multi-collapse3.brBTN.collapse(data-bs-parent='#MapaGroup01')  
       .mb-0.brdbtnD1
         .multi-collapse1.row.justify-content-center.align-items-center.pb-4.collapse.show(data-bs-parent='#MapaGroup01')
@@ -198,7 +198,7 @@
                 p Regularmente se usan detergentes enzimáticos y estos productos deben diluirse en agua fría o tibia para evitar la emisión de vapores y que los restos biológicos queden adheridos sobre el instrumental. Recordemos que el agua caliente coagula la sangre y es mucho más difícil de eliminar. 
               .col-lg-4.mb-4
                 figure
-                  img(src='@/assets/curso/tema3/img21.png')
+                  img(src='@/assets/curso/tema3/img21.svg')
               .col-lg-9
                 figure.mb-4
                   img(src='@/assets/curso/tema3/img22.png')
