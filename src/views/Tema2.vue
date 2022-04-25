@@ -73,25 +73,25 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img15.svg') 
 
-      .tarjeta.BG03.p-3(x="16%" y="93%")
+      .tarjeta.BG03.p-3(x="13%" y="96%")
         p Desde una de las manos, se toma el guante de la mano contraria y se extrae. El guante permanece en la mano que tiene aún el guante. Desde un dedo de la otra mano que quedó libre, se debe retirar el guante desde la parte interna, la que está en contacto con la piel y que, por ende, es la zona limpia. Se deben desechar en la caneca de residuos biológicos. Si la piel llegase a tocar la parte sucia de los guantes, se debe lavar las manos inmediatamente y aplicar loción desinfectante o alcohol.
     
-      .tarjeta.BG03.p-3(x="26.6%" y="93%")
+      .tarjeta.BG03.p-3(x="24.9%" y="96%")
         p Se retira desamarrando la parte de atrás, sacando los brazos y las manos. Si es de un solo uso, enrollar siempre por la parte interna y desecharla en la caneca de residuos biológicos. Si es de varios usos, previamente, antes de retirar los guantes, debió quedar limpia.
 
-      .tarjeta.BG03.p-3(x="37.8%" y="93%")
+      .tarjeta.BG03.p-3(x="37.8%" y="96%")
         p Guardarlas limpias, en el lugar designado para ello.
 
-      .tarjeta.BG03.p-3(x="50%" y="93%")
+      .tarjeta.BG03.p-3(x="51.6%" y="96%")
         p Si es de un solo uso, desecharla, o si es reutilizable, guardar limpia en el lugar asignado.
 
-      .tarjeta.BG03.p-3(x="61.2%" y="93%")
+      .tarjeta.BG03.p-3(x="63.8%" y="96%")
         p Limpiar pijama antifluido o uniforme.
 
-      .tarjeta.BG03.p-3(x="72.6%" y="93%")
+      .tarjeta.BG03.p-3(x="76.6%" y="96%")
         p Retirar el calzado especializado para dicha labor -botas plásticas.
 
-      .tarjeta.BG03.p-3(x="84.1%" y="93%")
+      .tarjeta.BG03.p-3(x="89.5%" y="96%")
         p Lavar muy bien las manos, antebrazo y brazo.
   
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-4

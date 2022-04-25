@@ -77,9 +77,9 @@
       .col-lg-8
         .row.justify.content-center.align-items-center
           .col-lg-6.col-sm-10.mb-4(data-aos="fade-right")
-            .row.BGIMG07.p-3
+            .row.BGIMG07.p-4-
               .col-3
-              .col-9
+              .col-9-mx-2
                 p <br> Realice una limpieza inicialmente con el trapero húmedo para recoger el polvo y las diversas partículas.
           .col-lg-6.col-sm-10.mb-4(data-aos="fade-left")
             .row.BGIMG08.p-3
