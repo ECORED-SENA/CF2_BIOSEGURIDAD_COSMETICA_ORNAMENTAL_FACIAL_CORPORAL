@@ -13,7 +13,7 @@
           p.mb-0 Pensar en la bioseguridad es acercarnos al conjunto de disposiciones y normas orientadas a la prevención de riesgos. Su objetivo es salvaguardar la salud y la seguridad de las personas que realizan procesos de atención a clientes, especialmente promover y garantizar la salud ocupacional de los trabajadores que son expuestos a riesgos biológicos y en este caso al personal que realiza atención en cosmética ornamental, facial y corporal. La bioseguridad incluye el manejo de los riesgos potenciales generados a partir de los agentes físicos, químicos y mecánicos de normas y medidas. Dentro de los componentes de la bioseguridad se encuentran los pilares básicos, los cuales definen las características mínimas que debe cumplir la bioseguridad. Ellos son:
 
         .row.justify-content-center
-          .col-lg-10.BG01(data-aos="fade-right")
+          .col-12.col-md-10.col-lg-10.BG01(data-aos="fade-right")
             SlyderA
               .row.justify-content-center.align-items-center.mb-4.p-4
                 .col-lg-10.mb-4
@@ -42,36 +42,34 @@
       .col-lg-8.mb-5
         img(src='@/assets/curso/tema1/img06.svg')
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4(data-aos="fade-right")
+      .col-md-10.col-lg-10.mb-4(data-aos="fade-right")
         p En la literatura y la experiencia del ser humano en relación con la bioseguridad se recomiendan algunas conductas. Es importante tener presente que dentro de las actividades que se desarrollan en los establecimientos de cosmética ornamental, facial y corporal hay un conjunto de medidas de precaución. A continuación, se listan algunas de ellas: 
-      .col-lg-10.BGIMG01(data-aos="fade-right")
-        .row.justify-content-center     
-          .col-lg-11.mb-4
-            br
-            SlyderA(tipo="b")
-              .row.justify-content-center
-                .col-lg-8 
-                P Conservar el lugar de labores en adecuadas condiciones de higiene y aseo. Todas las condiciones referentes a la ventilación, iluminación y temperatura de las diversas zonas del establecimiento deben ser óptimas. 
-              .row
-                .col-lg-8
-                p Toda persona que sea atendida debe ser considerada como una persona potencialmente transmisora de agentes biológicos. 
-              .row
-                .col-lg-8
-                p Es necesario que la actividad correspondiente a la limpieza de manos sea antes y después de la atención de cada usuario. Adicional, también se debe realizar cuando se tenga contacto con algún tipo de material patógeno. Se sugiere utilizar guantes cuando sea necesario. Algunos casos son cuando hay manipulación de elementos biológicos, manejo de instrumental o de equipos contaminados. 
-              .row
-                .col-lg-8
-                p Los elementos de protección personal deben estar almacenados en buenas condiciones, en lugar seguro y de buena accesibilidad.
-              .row
-                .col-lg-8
-                p Contar con protocolo de limpieza, desinfección y esterilización en caso de que aplique. Es importante tener presente que se debe utilizar material de un sólo uso, sólo podrá tener más de un uso, aquellos que cuente con la indicación en la ficha técnica por parte del proveedor. 
-              .row
-                .col-lg-8
-                p Tener el plan de gestión integral de residuos acorde con lo escrito a nivel normativo. Se debe tener presente que todas las bolsas y recipientes que contengan desechos deben ser correctamente cerradas y dirigidas al lugar que esté destinado para su almacenamiento. 
-              .row
-                .col-lg-8
-                p Se debe poner el símbolo universal de residuo biológico en la puerta donde quede el área donde se almacenan los residuos de este tipo y demás lugares que se estimen convenientes dentro del PGIRP (Plan de Gestión Integral de Residuos Provenientes de Centros de Estética peluquerías y actividades similares)
+    .row.justify-content-center.mb-5  
+      .col-12.col-md-8.col-lg-8(data-aos="fade-right")    
+        SlyderA(tipo="b").BGIMG01 
+          .row.justify-center
+            .col-12.col-lg-8
+              P.mt-5.mb-0.p-3.p-md-0.p-lg-0 Conservar el lugar de labores en adecuadas condiciones de higiene y aseo. Todas las condiciones referentes a la ventilación, iluminación y temperatura de las diversas zonas del establecimiento deben ser óptimas. 
+          .row.justify-align
+            .col-12.col-lg-8
+              p.mt-5.mb-0.p-3.p-md-0.p-lg-0 Toda persona que sea atendida debe ser considerada como una persona potencialmente transmisora de agentes biológicos. 
+          .row.justify-align
+            .col-12.col-lg-8
+              p.mt-5.mb-0.p-3.pb-md-0.pb-lg-0 Es necesario que la actividad correspondiente a la limpieza de manos sea antes y después de la atención de cada usuario. Adicional, también se debe realizar cuando se tenga contacto con algún tipo de material patógeno. Se sugiere utilizar guantes cuando sea necesario. Algunos casos son cuando hay manipulación de elementos biológicos, manejo de instrumental o de equipos contaminados. 
+          .row.justify-align
+            .col-12.col-lg-8
+              p.mt-5.mb-0.p-3.p-md-0.p-lg-0 Los elementos de protección personal deben estar almacenados en buenas condiciones, en lugar seguro y de buena accesibilidad.
+          .row.justify-align
+            .col-12.col-lg-8
+              p.mt-5.mb-0.p-3.p-md-0.p-lg-0 Contar con protocolo de limpieza, desinfección y esterilización en caso de que aplique. Es importante tener presente que se debe utilizar material de un sólo uso, sólo podrá tener más de un uso, aquellos que cuente con la indicación en la ficha técnica por parte del proveedor. 
+          .row.justify-align
+            .col-12.col-lg-8
+              p.mt-5.mb-0.p-3.p-md-0.p-lg-0 Tener el plan de gestión integral de residuos acorde con lo escrito a nivel normativo. Se debe tener presente que todas las bolsas y recipientes que contengan desechos deben ser correctamente cerradas y dirigidas al lugar que esté destinado para su almacenamiento. 
+          .row.justify-align
+            .col-12.col-lg-8
+              p.mt-5.mb-0.p-3.p-md-0.p-lg-0 Se debe poner el símbolo universal de residuo biológico en la puerta donde quede el área donde se almacenan los residuos de este tipo y demás lugares que se estimen convenientes dentro del PGIRP (Plan de Gestión Integral de Residuos Provenientes de Centros de Estética peluquerías y actividades similares)
         
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4.mt-5
       .col-lg-10.BG02(data-aos="fade-right")
         .row.justify-content-center.align-items-center     
           .col-lg-7

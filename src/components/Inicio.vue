@@ -43,7 +43,7 @@ section.inicio
 
 </template>
 <script>
-import BannerPrincipal from '../components/BannerPrincipal'
+import BannerPrincipal from '../components/BannerPrincipal2'
 import Footer from '../components/Footer'
 export default {
   name: 'Inicio',

@@ -11,7 +11,7 @@
       p Los elementos de protección personal (EPP) se definen como la indumentaria a utilizar por el personal de la salud o afines con el objetivo de crear una barrera física entre el prestador del servicio, el entorno o un elemento determinado, es decir los EPP protegen de riesgo y evitan contacto directo con material orgánico o demás elementos que puedan causar daño a las personas. Los EPP deben usarse de manera articulada con otras estrategias de prevención requeridas según el tipo de atención a realizar en el contexto de la salud y la cosmética. 
       p Sabes ¿cuáles son los tipos de riesgos que usted se puede aproximar? Lee con atención para encontrar una respuesta.  Existen trabajos que por sus condiciones exponen al trabajador a un peligro que puede generar una enfermedad o lesión. Algunos riesgos existentes son: 
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-10.BG01(data-aos="fade-right")
         SlyderA
           .row.justify-content-center.align-items-center.mb-4.p-4
@@ -67,32 +67,32 @@
       .col-lg-10.mb-4(data-aos="fade-right")
         p Dentro del proceso de atención a los usuarios, se debe garantizar el correcto uso de los elementos de protección personal, los cuales servirán como barrera de protección ante los posibles riesgos que se puedan evidenciar dentro del proceso de atención. La colocación de los elementos de protección personal sigue una secuencia previamente establecida, la cual asegura la utilización de manera adecuada, de modo tal que no afecte la realización del servicio por el operador. Es importante tener claro el riesgo al cual se encuentra expuesto por la ejecución del procedimiento, de esta manera se define qué elementos de protección se requeridos. A continuación, se muestra de manera general la secuencia de colocación y retiro de los elementos de protección posterior a la higienización de manos y con el uniforme y zapatos puestos.
 
-  .container.tarjeta.tarjeta--blanca
-    ImagenInfografica.color-acento-botones.mb-5
-      template(v-slot:imagen)
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img15.svg') 
+    .bg_grad-01
+      ImagenInfografica.color-acento-botones.mb-5
+        template(v-slot:imagen)
+          figure(data-aos="fade-right")
+            img(src='@/assets/curso/tema2/img15.svg') 
 
-      .tarjeta.BG03.p-3(x="13%" y="96%")
-        p Desde una de las manos, se toma el guante de la mano contraria y se extrae. El guante permanece en la mano que tiene aún el guante. Desde un dedo de la otra mano que quedó libre, se debe retirar el guante desde la parte interna, la que está en contacto con la piel y que, por ende, es la zona limpia. Se deben desechar en la caneca de residuos biológicos. Si la piel llegase a tocar la parte sucia de los guantes, se debe lavar las manos inmediatamente y aplicar loción desinfectante o alcohol.
-    
-      .tarjeta.BG03.p-3(x="24.9%" y="96%")
-        p Se retira desamarrando la parte de atrás, sacando los brazos y las manos. Si es de un solo uso, enrollar siempre por la parte interna y desecharla en la caneca de residuos biológicos. Si es de varios usos, previamente, antes de retirar los guantes, debió quedar limpia.
+        .tarjeta.BG03.p-3(x="13%" y="96%")
+          p Desde una de las manos, se toma el guante de la mano contraria y se extrae. El guante permanece en la mano que tiene aún el guante. Desde un dedo de la otra mano que quedó libre, se debe retirar el guante desde la parte interna, la que está en contacto con la piel y que, por ende, es la zona limpia. Se deben desechar en la caneca de residuos biológicos. Si la piel llegase a tocar la parte sucia de los guantes, se debe lavar las manos inmediatamente y aplicar loción desinfectante o alcohol.
+      
+        .tarjeta.BG03.p-3(x="24.9%" y="96%")
+          p Se retira desamarrando la parte de atrás, sacando los brazos y las manos. Si es de un solo uso, enrollar siempre por la parte interna y desecharla en la caneca de residuos biológicos. Si es de varios usos, previamente, antes de retirar los guantes, debió quedar limpia.
 
-      .tarjeta.BG03.p-3(x="37.8%" y="96%")
-        p Guardarlas limpias, en el lugar designado para ello.
+        .tarjeta.BG03.p-3(x="37.8%" y="96%")
+          p Guardarlas limpias, en el lugar designado para ello.
 
-      .tarjeta.BG03.p-3(x="51.6%" y="96%")
-        p Si es de un solo uso, desecharla, o si es reutilizable, guardar limpia en el lugar asignado.
+        .tarjeta.BG03.p-3(x="51.6%" y="96%")
+          p Si es de un solo uso, desecharla, o si es reutilizable, guardar limpia en el lugar asignado.
 
-      .tarjeta.BG03.p-3(x="63.8%" y="96%")
-        p Limpiar pijama antifluido o uniforme.
+        .tarjeta.BG03.p-3(x="63.8%" y="96%")
+          p Limpiar pijama antifluido o uniforme.
 
-      .tarjeta.BG03.p-3(x="76.6%" y="96%")
-        p Retirar el calzado especializado para dicha labor -botas plásticas.
+        .tarjeta.BG03.p-3(x="76.6%" y="96%")
+          p Retirar el calzado especializado para dicha labor -botas plásticas.
 
-      .tarjeta.BG03.p-3(x="89.5%" y="96%")
-        p Lavar muy bien las manos, antebrazo y brazo.
+        .tarjeta.BG03.p-3(x="89.5%" y="96%")
+          p Lavar muy bien las manos, antebrazo y brazo.
   
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-4
     .row.justify-content-center.mb-4

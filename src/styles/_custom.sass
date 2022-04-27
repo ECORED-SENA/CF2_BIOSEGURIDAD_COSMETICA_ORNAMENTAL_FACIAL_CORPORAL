@@ -55,19 +55,13 @@
   background-color: #483C8C
   top: 185px
 
-.slyder-a__bullets__item 
-.slyder-a__bullets__item--active 
-    background-color: #FFFF
-    border-color: #FFFF
-    opacity: o 
-
-
-
 .BGIMG01
   background-image: url("../assets/curso/tema1/img05.png")
-  background-size: cover 
+  background-size: 100% 
   background-repeat: no-repeat
   background-position: center
+  @media screen and ( max-width: 567px )
+    background-size: cover
 
 .BGIMG02
   background-image: url("../assets/curso/tema1/img10.png")
@@ -150,6 +144,17 @@
   transition: 0.3s
   width: 100% !important
 
+.justify-align
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+.justify-center
+  display: flex
+  justify-content: center
+  flex-direction: row
+
 .tabla-a th
   background-color: #F18385
 
@@ -221,3 +226,39 @@
 
 .linea-tiempo-d__item__content__title
   background-color: #DBFFFF
+
+.slyder-a__tipo-b
+  top: 35px
+.slyder-a__bullets__item
+  background-color: #F5C3C3
+.slyder-a__bullets__item--active
+  background-color: #483C8C !important
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  @media screen and ( max-width: $bp-max-xs  )
+    right: -23px !important
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  @media screen and ( max-width: $bp-max-xs  )
+    left: -23px !important
+
+.bg_grad-01
+  position: relative
+  .row, p, .cajon, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 6rem)
+    background-image: url("../assets/curso/tema2/fondo.svg")
+    background-repeat: no-repeat
+.bgr2
+  background-repeat: no-repeat
+  background-size: contain
+.img60
+  max-width: 60px
+.bgr3
+  background-color: #FDE9E0
+  

@@ -25,29 +25,29 @@
             .col-lg-11
               p.text-center En la limpieza se pueden identificar tres grandes protagonistas: el agua, el jabón y la fuerza. Le sugerimos identificar la característica de estos a continuación. 
 
-      .col-lg-10
-        .row.mb-5.justify-content-center
-          .col-lg-4.col-md-6.col-6(data-aos="fade-right")
-            .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-              .indicador--hover(v-if="indicadorTarjetaFlip")
-              .tarjeta-flip__contenedor
-                .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img02.png')})`}")
-                .tarjeta-flip__contenido.BG06.p-4.p-xl-5                  
-                  p Esta molécula es ampliamente reconocida como la fuente de vida, debido a sus componentes y los beneficios que ésta ofrece. Químicamente el agua se define como el solvente universal gracias a su estructura molecular. En los procesos de limpieza su función es fundamental a esta generar los puentes de unión entre las soluciones detergentes y la suciedad favoreciendo la remoción o desprendimiento de la superficie y facilitando la acción del detergente.
-          .col-lg-4.col-md-6.col-6
-            .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-              .indicador--hover(v-if="indicadorTarjetaFlip")
-              .tarjeta-flip__contenedor
-                .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img03.png')})`}")
-                .tarjeta-flip__contenido.BG06.p-4.p-xl-5                  
-                  p Productos sintéticos, por lo general derivados del petróleo, solubles en el agua, efectivos para la limpieza de áreas y elementos inanimados. Debido a sus componentes de afinidad grasa y con el agua se pueden crear puentes de agua que remueven la suciedad. Dentro de los productos detergentes podemos encontrar aquellos que por su PH pueden clasificarse en: 1. Jabones ácidos (ácido sulfúrico) 2. Jabones neutros y 3.  Jabones Básicos.
-          .col-lg-4.col-md-6.col-6(data-aos="fade-left")
-            .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-              .indicador--hover(v-if="indicadorTarjetaFlip")
-              .tarjeta-flip__contenedor
-                .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img04.png')})`}")
-                .tarjeta-flip__contenido.BG06.p-4.p-xl-5                  
-                  p Cuando se habla de procesos de limpieza, la fuerza hace referencia a la intensidad energética aplicada para desprender la suciedad de la superficie, tales como: 1. Fuerza centrífuga (lavadora) 2. Fuerza presión (hidrolavadoras) entre otros. En este caso para las áreas de cosmetología la fuerza aplicada depende del elemento a lavar.  Si hablamos de lencería, estas pueden ser sometidas a procedimientos en la lavadora, mientras que las superficies pueden ser a través de hidro lavadoras o remoción manual.
+      
+      .row.mb-5.justify-content-center
+        .col-12.col-lg-4.col-md-6(data-aos="fade-right").mb-3.mb-md-0
+          .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+            .indicador--hover(v-if="indicadorTarjetaFlip")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.bgr2(:style="{'background-image': `url(${require('@/assets/curso/tema3/img02.png')})`}")
+              .tarjeta-flip__contenido.BG06.p-4.p-xl-5                  
+                p Esta molécula es ampliamente reconocida como la fuente de vida, debido a sus componentes y los beneficios que ésta ofrece. Químicamente el agua se define como el solvente universal gracias a su estructura molecular. En los procesos de limpieza su función es fundamental a esta generar los puentes de unión entre las soluciones detergentes y la suciedad favoreciendo la remoción o desprendimiento de la superficie y facilitando la acción del detergente.
+        .col-12.col-lg-4.col-md-6.mb-3.mb-md-0
+          .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+            .indicador--hover(v-if="indicadorTarjetaFlip")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.bgr2(:style="{'background-image': `url(${require('@/assets/curso/tema3/img03.png')})`}")
+              .tarjeta-flip__contenido.BG06.p-4.p-xl-5                  
+                p Productos sintéticos, por lo general derivados del petróleo, solubles en el agua, efectivos para la limpieza de áreas y elementos inanimados. Debido a sus componentes de afinidad grasa y con el agua se pueden crear puentes de agua que remueven la suciedad. Dentro de los productos detergentes podemos encontrar aquellos que por su PH pueden clasificarse en: 1. Jabones ácidos (ácido sulfúrico) 2. Jabones neutros y 3.  Jabones Básicos.
+        .col-12.col-lg-4.col-md-6(data-aos="fade-left").mb-5
+          .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+            .indicador--hover(v-if="indicadorTarjetaFlip")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.bgr2(:style="{'background-image': `url(${require('@/assets/curso/tema3/img04.png')})`}")
+              .tarjeta-flip__contenido.BG06.p-4.p-xl-5                  
+                p Cuando se habla de procesos de limpieza, la fuerza hace referencia a la intensidad energética aplicada para desprender la suciedad de la superficie, tales como: 1. Fuerza centrífuga (lavadora) 2. Fuerza presión (hidrolavadoras) entre otros. En este caso para las áreas de cosmetología la fuerza aplicada depende del elemento a lavar.  Si hablamos de lencería, estas pueden ser sometidas a procedimientos en la lavadora, mientras que las superficies pueden ser a través de hidro lavadoras o remoción manual.
         p Comprendido las características de los elementos protagonistas en la limpieza, a continuación, se menciona el paso a paso de la limpieza de pisos, paredes y superficies en el contexto de la cosmetología ornamental, facial y corporal. 
 
     .row.BGIMG03.justify-content-center.mb-5    
@@ -55,7 +55,7 @@
         hr
         .row.justify.content-center.align-items-center
           .col-lg-2
-            img(src='@/assets/curso/tema3/img06.svg')
+            img.img60(src='@/assets/curso/tema3/img06.svg')
           .col-10
             p Elimine mecánicamente toda materia en las superficies y objetos se ejecuta con agua y jabón, para bajar la carga de microorganismos por medio del arrastre mecánico.
         hr
@@ -63,7 +63,7 @@
         hr
         .row.justify.content-center.align-items-center
           .col-lg-2
-            img(src='@/assets/curso/tema3/img07.svg')
+            img.img60(src='@/assets/curso/tema3/img07.svg')
           .col-10
             p Arrastre mecánicamente la materia orgánica utilizando varios elementos tales como: trapo, cepillo o trapeador. 
             br
@@ -71,15 +71,15 @@
       .col-lg-10.mb-4(data-aos="fade-right")
         .row.justify.content-center.align-items-center
           .col-lg-1.col-sm-10.mb-4
-            img(src='@/assets/curso/tema3/img08.svg')
+            img.img60(src='@/assets/curso/tema3/img08.svg')
           .col-11.col-sm-10
             p Haga la limpieza con agua y detergentes que tengan acción bactericida o germicida, para disminuir la carga de agentes patógenos o microorganismos. La limpieza en el contexto de la cosmetología se recomienda ejecutarse en los siguientes pasos:
       .col-lg-8
         .row.justify.content-center.align-items-center
           .col-lg-6.col-sm-10.mb-4(data-aos="fade-right")
-            .row.BGIMG07.p-4-
+            .row.BGIMG07.p-4.me-md-2
               .col-3
-              .col-9-mx-2
+              .col-9
                 p <br> Realice una limpieza inicialmente con el trapero húmedo para recoger el polvo y las diversas partículas.
           .col-lg-6.col-sm-10.mb-4(data-aos="fade-left")
             .row.BGIMG08.p-3
@@ -87,7 +87,7 @@
               .col-9
                 p <br> Haga uso de dos baldes, para que en uno se mezcle el agua y jabón y en el otro sólo agua para enjuagar.      
           .col-lg-6.col-sm-10.mb-4(data-aos="fade-right")
-            .row.BGIMG09.p-1
+            .row.BGIMG09.p-1.me-md-2
               .col-3
               .col-9
                 p <br><br>Inicie la limpieza con los lugares más limpios y termine en los más sucios. 
@@ -102,15 +102,15 @@
       .col-lg-10.mb-3
         <br><hr><br>
         .row.justify.content-center.align-items-center(data-aos="fade-right")
-          .col-lg-1.col-sm-2
-            img(src='@/assets/curso/tema3/img10.svg')
+          .col-lg-1.col-sm-2.justify.content-center
+            img.img60(src='@/assets/curso/tema3/img10.svg')
           .col-11.col-sm-10
             p Diligencie el formato de registro de la ejecución de procedimientos de limpieza. En este se describe el cronograma de periodicidad de prácticas de limpieza, responsable de la ejecución, productos utilizados, la fecha y el paso a paso de cómo se realizó. 
 
       .col-lg-6.mb-5(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img11.png' alt='AvatarTop')
-          .tarjeta.BG04.p-3
+          img(src='@/assets/curso/tema3/img11.svg' alt='AvatarTop')
+          .tarjeta.BG04.p-4
             p.text-center Las personas asignadas para que realicen el proceso de limpieza deben contar con los artículos de protección personal descritos anteriormente.
 
     .row.justify-content-center.mb-4
@@ -214,7 +214,7 @@
             figure.mb-4
               img(src='@/assets/curso/tema3/img24.png')
             p.mb-4 Existen diferentes métodos para lograr la esterilización, pero la escogencia de un método dependerá de las especificaciones del fabricante quien determina si el material se si puede o no se puede reprocesar. Los métodos más usados de esterilización son físicos y químicos. Veamos sus especificaciones. 
-          .col-lg-11.mb-4
+          .col-lg-10.mb-4
             .tabla-a.color-acento-contenido.mb-5 
               table                
                 thead

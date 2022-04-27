@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Protocolo de bioseguridad',
     descripcionCurso:
       'En el presente componente se exponen todos los elementos relacionados con el correcto manejo de los procesos de bioseguridad indispensables para la correcta ejecución de las actividades asistenciales en el marco de cuidar de la salud de los trabajadores y usuarios. Pensando en el proceso de aprendizaje se ha dispuesto aspectos relacionados con las precauciones universales, elementos de protección personal y manejo adecuado de residuos. Bienvenido.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal2.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
