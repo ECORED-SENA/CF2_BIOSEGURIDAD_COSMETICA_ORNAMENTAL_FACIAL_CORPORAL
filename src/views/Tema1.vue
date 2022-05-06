@@ -74,7 +74,7 @@
         .row.justify-content-center.align-items-center     
           .col-lg-7
             br
-            p En 1987 surge el sistema de precauciones universales direccionado por el Centros para el Control y la Prevención de Enfermedades (CDC), cuya intención es prevenir la transferencia y control de infecciones y patógenos que provienen de la sangre a partir de técnicas y procedimientos que protegen al personal que participa de los procesos asistenciales.  Según Francisco Álvarez, Enriqueta Faizal y Fernando Valderrama (2010) el principio de la precaución universal es que todos los pacientes y sus fluidos corporales, independientemente de su diagnóstico de ingreso o motivo por el cual haya entrado al hospital o clínica deberán ser considerados como potencialmente infectantes, y se deben tomar las precauciones necesarias para prevenir que ocurra la transmisión.  A continuación, se hará la descripción de los principios que componen las precauciones de tipo universal. 
+            p En 1987 surge el sistema de precauciones universales direccionado por el Centro para el Control y la Prevención de Enfermedades (CDC), cuya intención es prevenir la transferencia y control de infecciones y patógenos que provienen de la sangre a partir de técnicas y procedimientos que protegen al personal que participa de los procesos asistenciales.  Según Francisco Álvarez, Enriqueta Faizal y Fernando Valderrama (2010) el principio de la precaución universal es que todos los pacientes y sus fluidos corporales, independientemente de su diagnóstico de ingreso o motivo por el cual haya entrado al hospital o clínica deberán ser considerados como potencialmente infectantes, y se deben tomar las precauciones necesarias para prevenir que ocurra la transmisión.  A continuación, se hará la descripción de los principios que componen las precauciones de tipo universal. 
           .col-lg-4
             img(src='@/assets/curso/tema1/img07.jpg')
     br
@@ -237,7 +237,7 @@
                       span Descargar
                       i.fas.fa-file-download
                   .col-lg-7
-                    p Para más información revisa la página cuatro (4) de la página que direcciona el icono.
+                    p Para más información revise la página cuatro (4) del documento que direcciona el icono.
           .row(numero="3" titulo="Desinfección").p-3
             .col-lg-11.mb-4
               p Es un proceso de eliminación de microorganismos. En ciertas condiciones, algunos de estos procesos pueden eventualmente eliminar esporas bacterianas, aunque a la fecha no se dispone de métodos de certificación adecuados para usarlos como esterilizantes.   Esta puede clasificarse en:

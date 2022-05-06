@@ -213,7 +213,7 @@
             p La esterilización es un proceso por el cual se destruyen todos los microorganismos viables presentes en un objeto o superficie, incluidas las esporas bacterianas. Para lograr una correcta esterilización lo primero que se debe de realizar es la limpieza exhaustiva del material a esterilizar, que lleva a la eliminación de la suciedad visible y la materia orgánica que se encuentra alojada en una superficie u objeto, reduciendo así el número de microorganismos. 
             figure.mb-4
               img(src='@/assets/curso/tema3/img24.png')
-            p.mb-4 Existen diferentes métodos para lograr la esterilización, pero la escogencia de un método dependerá de las especificaciones del fabricante quien determina si el material se si puede o no se puede reprocesar. Los métodos más usados de esterilización son físicos y químicos. Veamos sus especificaciones. 
+            p.mb-4 Existen diferentes métodos para lograr la esterilización, pero la escogencia de un método dependerá de las especificaciones del fabricante quien determina si el material se puede o no se puede reprocesar. Los métodos más usados de esterilización son físicos y químicos. Veamos sus especificaciones. 
           .col-lg-10.mb-4
             .tabla-a.color-acento-contenido.mb-5 
               table                
@@ -237,7 +237,7 @@
                   tr.BG06
                     td Físico
                     td Radiación ionizante 
-                    td •Método muy eficiente en la desactivación de microorganismos.<br>•Es rápido, flexible y tiene gran capacidad de penetración en lo materiales.
+                    td •Método muy eficiente en la desactivación de microorganismos.<br>•Es rápido, flexible y tiene gran capacidad de penetración en los materiales.
                     td Solo puede ser aplicada dentro de instalación especificas con un alto nivel de seguridad.
                   tr
                     td Químico
@@ -268,7 +268,7 @@
                 br
                 h4 Almacenamiento adecuado
                 <br> 
-                p Cuando los objetos o instrumentos han sido desinfectados o esterilizados estos deberán de ser guardados en recipientes adecuadamente esterilizado o desinfectado por un máximo de una semana después de tratarlos.
+                p Cuando los objetos o instrumentos han sido desinfectados o esterilizados estos deberán de ser guardados en recipientes adecuadamente esterilizados o desinfectados por un máximo de una semana después de tratarlos.
               .col-lg-4.mb-4
                 figure
                   img(src='@/assets/curso/tema3/img26.png')  
@@ -279,7 +279,7 @@
       .col-lg-10.mb-4(data-aos="fade-right")
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
-            p Ahora que se identificado la importancia de la limpieza, desinfección y esterilización como base para la prevención de la propagación de infecciones es importante tener presente que una limpieza previa adecuada reduce sustancialmente la carga de patógenos y eliminará residuos orgánicos e inorgánicos con el fin de facilitar los procesos. Si este paso se realiza de manera adecuada, contribuye positivamente para que la desinfección y esterilización sean exitosas.          
+            p Ahora que se ha identificado la importancia de la limpieza, desinfección y esterilización como base para la prevención de la propagación de infecciones es importante tener presente que una limpieza previa adecuada reduce sustancialmente la carga de patógenos y eliminará residuos orgánicos e inorgánicos con el fin de facilitar los procesos. Si este paso se realiza de manera adecuada, contribuye positivamente para que la desinfección y esterilización sean exitosas.          
 
 
 

@@ -92,10 +92,10 @@ export default {
   complementario: [
     {
       texto:
-        'Álvarez Heredia, F; Faizal, E; & Valderrama, F.  (2010). Riesgos biológicos y bioseguridad (2a. ed.). ECOE Ediciones.https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/69149?page=97',
+        'Álvarez Heredia, F; Faizal, E; & Valderrama, F.  (2010). Riesgos biológicos y bioseguridad (2a. ed.). ECOE Ediciones.',
       tipo: 'Libro.',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/171334',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/69149',
     },
     {
       texto:
@@ -109,7 +109,7 @@ export default {
         'Moscoso Gama, J. M. (2020). Manual de Bioseguridad. El Cid Editor.',
       tipo: 'Libro.',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/69149',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/171334',
     },
     {
       texto:

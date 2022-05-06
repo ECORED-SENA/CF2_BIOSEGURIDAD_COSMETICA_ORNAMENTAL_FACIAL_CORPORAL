@@ -338,7 +338,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
-        p El plan de gestión integral de residuos provenientes de centros de estética peluquerías y actividades similares PGIRP estará diseñado por los generadores, los prestadores del servicio de desactivación y especial de aseo para organizar las actividades que se requieren para dar garantía de una adecuada gestión de residuos provenientes de los prestadores que ofertan servicios en cosmética ornamental, facial y corporal. 
+        p El plan de gestión integral de residuos provenientes de centros de estética, peluquerías y actividades similares PGIRP estará diseñado por los generadores, los prestadores del servicio de desactivación y especial de aseo para organizar las actividades que se requieren para dar garantía de una adecuada gestión de residuos provenientes de los prestadores que ofertan servicios en cosmética ornamental, facial y corporal. 
       .col-lg-10(data-aos="fade-right")
         .bloque-texto-g.color-primario.mb-4.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
