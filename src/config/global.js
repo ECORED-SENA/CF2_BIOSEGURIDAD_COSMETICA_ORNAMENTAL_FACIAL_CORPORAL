@@ -134,7 +134,7 @@ export default {
     },
     {
       texto:
-        'Mora Valencia, C; Berbeo Rodríguez, M.  (2010). Manual de procedimientos para la gestión integral de los residuos hospitalarios en Colombia.',
+        'Mora Valencia, C; Berbeo Rodríguez, M.  (2010). Manual de  gestión integral de residuos.',
       tipo: 'Otro.',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/IA/INS/manual-gestion-integral-residuos.pdf',
@@ -217,7 +217,7 @@ export default {
     },
     {
       referencia:
-        'Mora Valencia, C; Berbeo Rodríguez, M.  (2010). Manual de procedimientos para la gestión integral de los residuos hospitalarios en Colombia.',
+        'Mora Valencia, C; Berbeo Rodríguez, M.  (2010). Manual de  gestión integral de residuos.',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/IA/INS/manual-gestion-integral-residuos.pdf',
     },
