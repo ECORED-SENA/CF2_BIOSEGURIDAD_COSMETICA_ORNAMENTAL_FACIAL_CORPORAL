@@ -78,32 +78,32 @@
         .row.justify-center
           .col-12.col-lg-4.mb-3(data-aos="fade-up")
             .row.bgr.h-100
-              .col-4.px-0.bgr_2.align-items-center
+              .col-3.px-0.bgr_2.align-items-center
                 figure.justify-center
                   img.img35(src='@/assets/curso/tema3/img28.svg', alt='Texto que describa la imagen')
-              .col-8.align-items-center
+              .col-9.align-items-center
                 p.mb-0.p-2 Realice una limpieza inicialmente con el trapero húmedo para recoger el polvo y las diversas partículas.
           .col-12.col-lg-4.mb-3(data-aos="fade-up")
             .row.bgr.h-100
-              .col-4.px-0.bgr_2.align-items-center
+              .col-3.px-0.bgr_2.align-items-center
                 figure.justify-center
                   img.img35(src='@/assets/curso/tema3/img29.svg', alt='Texto que describa la imagen')
-              .col-8.align-items-center
+              .col-9.align-items-center
                 p.mb-0.p-2 Haga uso de dos baldes, para que en uno se mezcle el agua y jabón y en el otro sólo agua para enjuagar.
         .row.justify-center
           .col-12.col-lg-4.mb-3(data-aos="fade-up")
             .row.bgr.h-100
-              .col-4.px-0.bgr_2.align-items-center
+              .col-3.px-0.bgr_2.align-items-center
                 figure.justify-center
                   img.img35(src='@/assets/curso/tema3/img30.svg', alt='Texto que describa la imagen')
-              .col-8.align-items-center
+              .col-9.align-items-center
                 p.mb-0.p-2 Inicie la limpieza con los lugares más limpios y termine en los más sucios. 
           .col-12.col-lg-4.mb-3(data-aos="fade-up")
             .row.bgr.h-100
-              .col-4.px-0.bgr_2.align-items-center
+              .col-3.px-0.bgr_2.align-items-center
                 figure.justify-center
                   img.img35(src='@/assets/curso/tema3/img31.svg', alt='Texto que describa la imagen')
-              .col-8.align-items-center
+              .col-9.align-items-center
                 p.mb-0.p-2 Lave con agua y jabón los elementos utilizados.
                 
       .col-lg-10.mb-3
