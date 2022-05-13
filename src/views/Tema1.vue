@@ -182,15 +182,15 @@
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
         p Adicional a estos pasos, es importante garantizar la debida manipulación del artículo en el punto de atención de manera tal que no se contamine antes de usarlo. La utilización de los diversos métodos se hace con el fin de eliminar los microorganismos en los instrumentos, insumos o equipos; para que el proceso de desinfección sea real es importante contar con los siguientes criterios.
-      .col-lg-8(data-aos="fade-right")
+      .col-12.col-lg-8(data-aos="fade-right")
         LineaTiempoD.color-primario.mb-4
           .row(numero="1" titulo="Resistencia de los microorganismos").p-3
-            .col-lg-11.mb-4
+            .col-12.col-lg-11.mb-4
               p Son todas aquellas situaciones en la que los microorganismos impactan en la eficiencia de los procesos y pueden generar cierto tipo de resistencia a la esterilización.  Este tipo de condiciones pueden ser por la conformación de esporas y condiciones de la pared celular (lípidos, grosor). A continuación, se presentan los agentes infección. El orden define su resistencia. Siendo el 8 el mayor.
-            .col-lg-5.sm-3
+            .col-12.col-lg-5.sm-3
               figure
                 img(src='@/assets/curso/tema1/img12.png')
-            .col-lg-7
+            .col-12.col-lg-7
               ol.lista-ol--cuadro
                 li 
                   .lista-ol--cuadro__vineta
@@ -228,15 +228,15 @@
             .col-lg-4.sm-3
               figure
                 img(src='@/assets/curso/tema1/img13.png')
-            .col-lg-8
+            .col-md-.col-lg-8
               p Se debe tener presente que los diversos tipos de procedimientos en los servicios de estética tienen diversas formas de riesgo de infección porque pueden involucrar la eficiencia que tiene el tejido para lograr la defensa correcta, la carga de contagio que tenga el instrumento y otros factores coyunturales. El método de clasificación tradicional aún vigente es la clasificación: spaulding, la cual separa en tres categorías el riesgo de generar infección.
               .tarjeta.BG06
-                .row.justify-content-around.align-items-center
-                  .col-lg-3
+                .row.align-items-center
+                  .col-12.col-lg-5.justify-center
                     a.boton.color-acento-botones.texto-blanco(href="https://www.minsal.cl/wp-content/uploads/2018/05/NT-de-esterilizaci%C3%B3n-y-DAN-con-rectificaciones-y-resoluciones-a.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
-                  .col-lg-7
+                  .col-12.col-lg-7
                     p Para más información revise la página cuatro (4) del documento que direcciona el icono.
           .row(numero="3" titulo="Desinfección").p-3
             .col-lg-11.mb-4

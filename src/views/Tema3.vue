@@ -74,31 +74,38 @@
             img.img60(src='@/assets/curso/tema3/img08.svg')
           .col-11.col-sm-10
             p Haga la limpieza con agua y detergentes que tengan acción bactericida o germicida, para disminuir la carga de agentes patógenos o microorganismos. La limpieza en el contexto de la cosmetología se recomienda ejecutarse en los siguientes pasos:
-      .col-lg-8
-        .row.justify.content-center.align-items-center
-          .col-lg-6.col-sm-10.mb-4(data-aos="fade-right")
-            .row.BGIMG07.p-4.me-md-2
-              .col-3
-              .col-9
-                p <br> Realice una limpieza inicialmente con el trapero húmedo para recoger el polvo y las diversas partículas.
-          .col-lg-6.col-sm-10.mb-4(data-aos="fade-left")
-            .row.BGIMG08.p-3
-              .col-3
-              .col-9
-                p <br> Haga uso de dos baldes, para que en uno se mezcle el agua y jabón y en el otro sólo agua para enjuagar.      
-          .col-lg-6.col-sm-10.mb-4(data-aos="fade-right")
-            .row.BGIMG09.p-1.me-md-2
-              .col-3
-              .col-9
-                p <br><br>Inicie la limpieza con los lugares más limpios y termine en los más sucios. 
-                br
-          .col-lg-6.col-sm-10.mb-4(data-aos="fade-left")
-            .row.BGIMG10.p-3
-              .col-3
-              .col-9
-                <br>
-                p <br> Lave con agua y jabón los elementos utilizados.
-                <br>
+      .col-lg-12
+        .row.justify-center
+          .col-12.col-lg-4.mb-3(data-aos="fade-up")
+            .row.bgr.h-100
+              .col-4.px-0.bgr_2.align-items-center
+                figure.justify-center
+                  img.img35(src='@/assets/curso/tema3/img28.svg', alt='Texto que describa la imagen')
+              .col-8.align-items-center
+                p.mb-0.p-2 Realice una limpieza inicialmente con el trapero húmedo para recoger el polvo y las diversas partículas.
+          .col-12.col-lg-4.mb-3(data-aos="fade-up")
+            .row.bgr.h-100
+              .col-4.px-0.bgr_2.align-items-center
+                figure.justify-center
+                  img.img35(src='@/assets/curso/tema3/img29.svg', alt='Texto que describa la imagen')
+              .col-8.align-items-center
+                p.mb-0.p-2 Haga uso de dos baldes, para que en uno se mezcle el agua y jabón y en el otro sólo agua para enjuagar.
+        .row.justify-center
+          .col-12.col-lg-4.mb-3(data-aos="fade-up")
+            .row.bgr.h-100
+              .col-4.px-0.bgr_2.align-items-center
+                figure.justify-center
+                  img.img35(src='@/assets/curso/tema3/img30.svg', alt='Texto que describa la imagen')
+              .col-8.align-items-center
+                p.mb-0.p-2 Inicie la limpieza con los lugares más limpios y termine en los más sucios. 
+          .col-12.col-lg-4.mb-3(data-aos="fade-up")
+            .row.bgr.h-100
+              .col-4.px-0.bgr_2.align-items-center
+                figure.justify-center
+                  img.img35(src='@/assets/curso/tema3/img31.svg', alt='Texto que describa la imagen')
+              .col-8.align-items-center
+                p.mb-0.p-2 Lave con agua y jabón los elementos utilizados.
+                
       .col-lg-10.mb-3
         <br><hr><br>
         .row.justify.content-center.align-items-center(data-aos="fade-right")
